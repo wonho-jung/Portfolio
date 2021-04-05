@@ -4,7 +4,9 @@ import styled from "styled-components";
 function Home() {
   return (
     <HomeContainer>
-      <h1>hi</h1>
+      <h3>Hi</h3>
+      <h1>I'm Won</h1>
+      <h1>web developer.</h1>
     </HomeContainer>
   );
 }
@@ -13,5 +15,5 @@ export default Home;
 
 const HomeContainer = styled.div`
   height: 100vh;
-  background-color: #0d0d0d;
+  background-color: gray;
 `;
