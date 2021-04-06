@@ -7,10 +7,10 @@ function Header() {
       <HeaderLeft>myLogo</HeaderLeft>
       <HeaderRight>
         <ul>
-          <li>01. About</li>
-          <li>02. Project</li>
+          <li>About()</li>
+          <li>Project()</li>
 
-          <li>03. Contact </li>
+          <li>Contact()</li>
 
           <li>
             <button>Resume</button>
@@ -23,6 +23,16 @@ function Header() {
 
 export default Header;
 
-const HeaderContainer = styled.div``;
+const HeaderContainer = styled.div`
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+`;
 const HeaderLeft = styled.div``;
-const HeaderRight = styled.div``;
+const HeaderRight = styled.div`
+  ul {
+    display: flex;
+    list-style: none;
+  }
+`;

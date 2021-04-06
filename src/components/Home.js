@@ -6,7 +6,8 @@ function Home() {
     <HomeContainer>
       <h3>Hi</h3>
       <h1>I'm Won</h1>
-      <h1>web developer.</h1>
+      <h1>I build things for the web.</h1>
+      <p>I'm montreal-based Web developer</p>
     </HomeContainer>
   );
 }
@@ -15,5 +16,5 @@ export default Home;
 
 const HomeContainer = styled.div`
   height: 100vh;
-  background-color: gray;
+  background-color: #222831;
 `;

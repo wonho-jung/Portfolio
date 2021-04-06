@@ -1,12 +1,16 @@
 import styled from "styled-components";
-import Header from "./Header";
-import Home from "./Home";
-
+import Header from "./components/Header";
+import RightSidebar from "./components/RightSidebar";
+import Home from "./components/Home";
+import LeftSidebar from "./components/LeftSidebar";
+import Body from "./components/Body";
 function App() {
   return (
     <AppContainer>
       <Header />
-      <Home />
+      <LeftSidebar />
+      <Body />
+      <RightSidebar />
     </AppContainer>
   );
 }
