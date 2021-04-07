@@ -1,11 +1,16 @@
 import React from "react";
+import styled from "styled-components";
 
 function Project() {
   return (
-    <div>
+    <ProjectContainer id="project">
       <h1>Project()</h1>
-    </div>
+    </ProjectContainer>
   );
 }
 
 export default Project;
+
+const ProjectContainer = styled.div`
+  height: 100vh;
+`;
