@@ -9,7 +9,6 @@ function Loading() {
     }
   };
   animation();
-  console.log(logo);
   return (
     <LoadingContainer>
       <svg
@@ -106,34 +105,69 @@ const LoadingContainer = styled.div`
     left: 50%;
     transform: translate(-50%, -50%);
 
+    > path:nth-child(0) {
+      stroke-dasharray: 576px;
+      stroke-dashoffset: 576px;
+    }
+    > path:nth-child(1) {
+      stroke-dasharray: 398px;
+      stroke-dashoffset: 398px;
+    }
     > path:nth-child(2) {
+      stroke-dasharray: 395px;
+      stroke-dashoffset: 395px;
+    }
+    > path:nth-child(3) {
       stroke-dasharray: 50px;
       stroke-dashoffset: 50px;
     }
-    > path:nth-child(3) {
-      stroke-dasharray: 30px;
-    }
     > path:nth-child(4) {
-      stroke-dasharray: 30px;
+      stroke-dasharray: 488px;
+      stroke-dashoffset: 488px;
     }
     > path:nth-child(5) {
-      stroke-dasharray: 30px;
+      stroke-dasharray: 498px;
+      stroke-dashoffset: 498px;
     }
     > path:nth-child(6) {
-      stroke-dasharray: 30px;
+      stroke-dasharray: 437px;
+      stroke-dashoffset: 437px;
     }
     > path:nth-child(7) {
-      stroke-dasharray: 30px;
+      stroke-dasharray: 321px;
+      stroke-dashoffset: 321px;
     }
     > path:nth-child(8) {
-      stroke-dasharray: 30px;
+      stroke-dasharray: 576px;
+      stroke-dashoffset: 576px;
     }
     > path:nth-child(9) {
-      stroke-dasharray: 30px;
+      stroke-dasharray: 398px;
+      stroke-dashoffset: 398px;
     }
-  }
-  #logo > path:nth-child(1) {
-    color: red;
-    stroke-dasharray: 30px;
+    > path:nth-child(10) {
+      stroke-dasharray: 395px;
+      stroke-dashoffset: 395px;
+    }
+    > path:nth-child(11) {
+      stroke-dasharray: 50px;
+      stroke-dashoffset: 50px;
+    }
+    > path:nth-child(12) {
+      stroke-dasharray: 488px;
+      stroke-dashoffset: 488px;
+    }
+    > path:nth-child(13) {
+      stroke-dasharray: 498px;
+      stroke-dashoffset: 498px;
+    }
+    > path:nth-child(14) {
+      stroke-dasharray: 437px;
+      stroke-dashoffset: 437px;
+    }
+    > path:nth-child(15) {
+      stroke-dasharray: 321px;
+      stroke-dashoffset: 321px;
+    }
   }
 `;
