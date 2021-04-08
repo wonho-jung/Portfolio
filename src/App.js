@@ -4,25 +4,38 @@ import RightSidebar from "./components/RightSidebar";
 import Home from "./components/Home";
 import LeftSidebar from "./components/LeftSidebar";
 import Body from "./components/Body";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Loading from "./components/Loading";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   const [loading, setLoading] = useState(true);
+  const time = () => {
+    setLoading(false);
+  };
+
+  setTimeout(time, 2600);
+
   return (
     <>
       {loading ? (
         <Loading />
       ) : (
-        <>
-          <AppContainer>
-            <Header />
-            <AppBodyContainer>
-              <LeftSidebar />
-              <Body />
-              <RightSidebar />
-            </AppBodyContainer>
-          </AppContainer>
-        </>
+        <Router>
+          <>
+            <AppContainer>
+              <Header />
+              <AppBodyContainer>
+                <LeftSidebar />
+                <Switch>
+                  <Route path="/">
+                    <Body />
+                  </Route>
+                </Switch>
+                <RightSidebar />
+              </AppBodyContainer>
+            </AppContainer>
+          </>
+        </Router>
       )}
     </>
   );

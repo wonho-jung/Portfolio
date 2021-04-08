@@ -3,7 +3,6 @@ import styled from "styled-components";
 import About from "./About";
 import Home from "./Home";
 import Project from "./Project";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // Linkcolor #54b689 or 00adb5
 // font color #393E46 ,eeeeee
