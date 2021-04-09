@@ -26,7 +26,9 @@ const BodyContainer = styled.div`
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0 100px;
   margin: 0px auto !important;
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 0;
+  }
 `;

@@ -4,10 +4,9 @@ import styled from "styled-components";
 function Home() {
   return (
     <HomeContainer>
-      <h3>Hi</h3>
+      <h1>Hello!</h1>
       <h1>I'm Won</h1>
-      <h1>I build things for the web.</h1>
-      <p>I'm montreal-based Web developer</p>
+      <h1>Web devloper</h1>
     </HomeContainer>
   );
 }
@@ -15,9 +14,13 @@ function Home() {
 export default Home;
 
 const HomeContainer = styled.div`
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  height: 100vh;
+  @media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+      font-size: 2em;
+    }
+  }
 `;

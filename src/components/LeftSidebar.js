@@ -23,7 +23,6 @@ const LeftSidebarContainer = styled.div`
   position: sticky;
   top: 600px;
   height: fit-content;
-
   flex: 0.1;
   display: flex;
   justify-content: center;

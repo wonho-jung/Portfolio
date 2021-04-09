@@ -1,8 +1,12 @@
 import { Button } from "@material-ui/core";
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
 function Header() {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
   return (
     <HeaderContainer>
       <HeaderLeft>
@@ -84,26 +88,35 @@ function Header() {
         </svg>
       </HeaderLeft>
       <HeaderRight>
-        <ul>
+        <div className="menu-icon" onClick={handleClick}>
+          {click ? (
+            <CloseIcon fontSize="large" />
+          ) : (
+            <MenuIcon fontSize="large" />
+          )}
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a href="/#about">
+            <a href="/#about" onClick={closeMobileMenu}>
               About<span>()</span>
             </a>
           </li>
           <li>
-            <a href="/#project">
+            <a href="/#project" onClick={closeMobileMenu}>
               Project<span>()</span>
             </a>
           </li>
 
           <li>
-            <a href="/#contact">
+            <a href="/#contact" onClick={closeMobileMenu}>
               Contact<span>()</span>
             </a>
           </li>
 
           <li>
-            <Button className="resumeBTN">Resume</Button>
+            <Button className="resumeBTN" onClick={closeMobileMenu}>
+              Resume
+            </Button>
           </li>
         </ul>
       </HeaderRight>
@@ -114,7 +127,7 @@ function Header() {
 export default Header;
 
 const HeaderContainer = styled.div`
-  padding: 0 20px;
+  padding: 0 30px;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -122,14 +135,64 @@ const HeaderContainer = styled.div`
 `;
 const HeaderLeft = styled.div`
   .logo {
-    width: 150px;
+    width: 100px;
     opacity: 0.7;
     :hover {
       opacity: 1;
     }
   }
+  @media screen and (max-width: 960px) {
+    .logo {
+      opacity: 1;
+    }
+  }
 `;
 const HeaderRight = styled.div`
+  @media screen and (max-width: 960px) {
+    .menu-icon {
+      display: block !important;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+      z-index: 999;
+    }
+    .nav-menu {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s linear;
+      justify-content: center;
+      li {
+        padding-left: 0;
+        opacity: 1;
+        padding-bottom: 20px;
+      }
+    }
+
+    .nav-menu.active {
+      background: #242222;
+      top: 0;
+      left: 50%;
+      opacity: 1;
+      transition: all 0.5s linear;
+      z-index: 1;
+      li {
+        padding-left: 0;
+        opacity: 1;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
   ul {
     display: flex;
     list-style: none;
@@ -153,7 +216,8 @@ const HeaderRight = styled.div`
     }
   }
   li > button {
-    font-size: 16px;
+    padding: 5px;
+    font-size: 12px;
     opacity: 0.7;
     margin: 0;
     color: #eeeeee;
@@ -162,6 +226,13 @@ const HeaderRight = styled.div`
       opacity: 1;
       background-color: rgba(84, 182, 137, 0.3);
     }
+  }
+  .menu-icon {
+    display: none;
+  }
+  .MuiSvgIcon-root {
+    color: #54b689;
+    opacity: 1;
   }
 `;
 
