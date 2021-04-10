@@ -130,8 +130,10 @@ const HeaderContainer = styled.div`
   padding: 0 30px;
   height: 100px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  @media screen and (min-width: 960px) {
+    justify-content: space-between;
+  }
 `;
 const HeaderLeft = styled.div`
   .logo {
@@ -148,29 +150,33 @@ const HeaderLeft = styled.div`
   }
 `;
 const HeaderRight = styled.div`
+  display: flex;
+  flex-direction: column;
   @media screen and (max-width: 960px) {
     .menu-icon {
       display: block !important;
       position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 60%);
-      font-size: 1.8rem;
       cursor: pointer;
-      z-index: 999;
+      right: 30px;
+      top: 45px;
+      transform: translate(-5%, -50%);
+      z-index: 2;
     }
     .nav-menu {
-      background-color: black;
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      height: 100vh;
-      position: absolute;
+      position: fixed;
       top: 0;
-      left: -100%;
-      opacity: 1;
-      transition: all 0.5s linear;
+      right: 0;
+      background: #1e2a3a;
+      height: 100vh;
+      width: 70%;
       justify-content: center;
+      flex-direction: column;
+      -webkit-clip-path: circle(100px at 90% -60%);
+      clip-path: circle(100px at 90% -60%);
+      transition: all 1.5s ease-out;
+      pointer-events: none;
+      z-index: 1;
+
       li {
         padding-left: 0;
         opacity: 1;
@@ -179,12 +185,12 @@ const HeaderRight = styled.div`
     }
 
     .nav-menu.active {
-      background: #242222;
-      top: 0;
-      left: 50%;
-      opacity: 1;
-      transition: all 0.5s linear;
-      z-index: 1;
+      -webkit-clip-path: circle(1200px at 90% -10%);
+      clip-path: circle(1200px at 90% -10%);
+
+      pointer-events: all;
+
+      background: #1e2a3a;
       li {
         padding-left: 0;
         opacity: 1;

@@ -30,5 +30,6 @@ const BodyContainer = styled.div`
   margin: 0px auto !important;
   @media (min-width: 320px) and (max-width: 480px) {
     padding: 0;
+    flex: 1;
   }
 `;

@@ -35,4 +35,7 @@ const Icons = styled.div`
   .MuiSvgIcon-root {
     padding-bottom: 15px;
   }
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: none;
+  }
 `;

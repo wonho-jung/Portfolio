@@ -12,5 +12,5 @@ function Project() {
 export default Project;
 
 const ProjectContainer = styled.div`
-  height: 100vh;
+  height: 50vh;
 `;

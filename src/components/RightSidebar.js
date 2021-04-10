@@ -22,4 +22,7 @@ const RightSidebarContainer = styled.div`
   align-items: center;
   max-width: 150px;
   writing-mode: vertical-rl;
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: none;
+  }
 `;

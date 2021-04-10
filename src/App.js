@@ -37,12 +37,13 @@ function App() {
 
 export default App;
 const AppContainer = styled.div`
+  color: #eeeeee;
   margin: 0;
-  background-color: #222831;
+  background-color: #111821;
 `;
 const AppBodyContainer = styled.div`
   display: flex;
   @media (min-width: 320px) and (max-width: 480px) {
-    display: grid;
+    /* display: grid; */
   }
 `;
