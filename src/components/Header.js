@@ -97,18 +97,30 @@ function Header() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a href="/#about" onClick={closeMobileMenu}>
+            <a
+              className="nav-link nav-link-ltr"
+              href="/#about"
+              onClick={closeMobileMenu}
+            >
               About<span>()</span>
             </a>
           </li>
           <li>
-            <a href="/#project" onClick={closeMobileMenu}>
+            <a
+              className="nav-link nav-link-ltr"
+              href="/#project"
+              onClick={closeMobileMenu}
+            >
               Project<span>()</span>
             </a>
           </li>
 
           <li>
-            <a href="/#contact" onClick={closeMobileMenu}>
+            <a
+              className="nav-link nav-link-ltr"
+              href="/#contact"
+              onClick={closeMobileMenu}
+            >
               Contact<span>()</span>
             </a>
           </li>
@@ -158,7 +170,7 @@ const HeaderRight = styled.div`
       position: absolute;
       cursor: pointer;
       right: 30px;
-      top: 45px;
+      top: 50px;
       transform: translate(-5%, -50%);
       z-index: 2;
     }
@@ -207,7 +219,22 @@ const HeaderRight = styled.div`
   li {
     padding-left: 30px;
     font-size: 16px;
+    position: relative;
   }
+  .nav-link::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #54b689;
+    width: 0%;
+    top: 20px;
+    /* bottom: 10px; */
+  }
+  .nav-link-ltr:hover::before {
+    width: 60px;
+  }
+
   li > a {
     text-decoration: none;
     color: #eeeeee;

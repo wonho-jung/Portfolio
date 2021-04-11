@@ -14,7 +14,7 @@ export default RightSidebar;
 const RightSidebarContainer = styled.div`
   /* padding: 0 20px; */
   position: sticky;
-  top: 600px;
+  top: 400px;
   height: fit-content;
   flex: 0.1;
   display: flex;

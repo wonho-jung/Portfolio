@@ -8,7 +8,7 @@ function Home() {
       <h1>
         I'm <span className="span-w">W</span>on,
       </h1>
-      <h1>Web devloper</h1>
+      <h1>Web devloper.</h1>
     </HomeContainer>
   );
 }
@@ -16,20 +16,53 @@ function Home() {
 export default Home;
 
 const HomeContainer = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  h1:nth-child(1) {
+    animation-name: paragraph;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    @keyframes paragraph {
+      0% {
+        transform: translateX(-1000px);
+      }
+    }
+  }
+  h1:nth-child(2) {
+    animation-name: paragraph;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    @keyframes paragraph {
+      0% {
+        transform: translateX(-1000px);
+      }
+    }
+  }
+  h1:nth-child(3) {
+    animation-name: paragraph;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    @keyframes paragraph {
+      0% {
+        transform: translateX(-1000px);
+      }
+    }
+  }
 
   .span-w {
-    padding-right: 3px;
-    color: #fd2155;
+    font-size: 40px;
+    color: #54b689;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: white;
-    text-shadow: 3px 0px #ff1f8f;
+    -webkit-text-stroke-color: #54b689;
   }
   @media (min-width: 320px) and (max-width: 480px) {
-    transform: translate(0, -20%);
+    transform: translate(0, -10%);
   }
 `;

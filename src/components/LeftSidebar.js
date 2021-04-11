@@ -21,12 +21,15 @@ export default LeftSidebar;
 
 const LeftSidebarContainer = styled.div`
   position: sticky;
-  top: 600px;
+  top: 400px;
   height: fit-content;
   flex: 0.1;
   display: flex;
   justify-content: center;
   max-width: 150px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 const Icons = styled.div`
@@ -34,8 +37,5 @@ const Icons = styled.div`
   flex-direction: column;
   .MuiSvgIcon-root {
     padding-bottom: 15px;
-  }
-  @media (min-width: 320px) and (max-width: 480px) {
-    display: none;
   }
 `;

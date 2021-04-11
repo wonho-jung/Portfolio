@@ -20,16 +20,14 @@ function App() {
       {loading ? (
         <Loading />
       ) : (
-        <>
-          <AppContainer>
-            <Header />
-            <AppBodyContainer>
-              <LeftSidebar />
-              <Body />
-              <RightSidebar />
-            </AppBodyContainer>
-          </AppContainer>
-        </>
+        <AppContainer>
+          <Header />
+          <AppBodyContainer>
+            <LeftSidebar />
+            <Body />
+            <RightSidebar />
+          </AppBodyContainer>
+        </AppContainer>
       )}
     </>
   );
@@ -38,12 +36,10 @@ function App() {
 export default App;
 const AppContainer = styled.div`
   color: #eeeeee;
-  margin: 0;
   background-color: #111821;
 `;
 const AppBodyContainer = styled.div`
   display: flex;
   @media (min-width: 320px) and (max-width: 480px) {
-    /* display: grid; */
   }
 `;
