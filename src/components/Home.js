@@ -21,6 +21,10 @@ const HomeContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  h1 {
+    font-size: 3em;
+    line-height: 1.05em;
+  }
   h1:nth-child(1) {
     animation-name: paragraph;
     animation-duration: 1.2s;
@@ -56,7 +60,7 @@ const HomeContainer = styled.div`
   }
 
   .span-w {
-    font-size: 40px;
+    font-size: 1.5em;
     color: #54b689;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 0.5px;
@@ -64,5 +68,9 @@ const HomeContainer = styled.div`
   }
   @media (min-width: 320px) and (max-width: 480px) {
     transform: translate(0, -10%);
+    h1 {
+      font-size: 2em;
+      line-height: 1.25em;
+    }
   }
 `;

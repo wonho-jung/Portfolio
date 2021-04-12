@@ -77,9 +77,27 @@ const AboutContainer = styled.div`
       display: flex;
       align-items: center;
       list-style: none;
+      .MuiSvgIcon-root {
+        color: #54b689;
+      }
     }
   }
+  h1 {
+    font-size: 3em;
+    span {
+      color: #54b689;
+    }
+  }
+  /* h1 {
+    font-size: 2.5em;
+    line-height:1.125em
+  } */
+
   @media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+      font-size: 2em;
+      font-weight: 700;
+    }
   }
 `;
 const AboutContent = styled.div`

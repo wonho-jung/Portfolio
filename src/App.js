@@ -37,6 +37,10 @@ export default App;
 const AppContainer = styled.div`
   color: #eeeeee;
   background-color: #111821;
+  a {
+    text-decoration: none;
+    color: #eeeeee;
+  }
 `;
 const AppBodyContainer = styled.div`
   display: flex;
