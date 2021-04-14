@@ -18,7 +18,9 @@ function Project() {
 
   return (
     <ProjectContainer data-aos="fade-right" id="project">
-      <h1>Project()</h1>
+      <h1>
+        Project<span>()</span>
+      </h1>
 
       <ProjectContent>
         <ContentImg>
@@ -193,6 +195,9 @@ const ProjectContainer = styled.div`
 
   h1 {
     font-size: 3em;
+    span {
+      color: #54b689;
+    }
   }
   @media (min-width: 320px) and (max-width: 480px) {
     h1 {
@@ -239,9 +244,13 @@ const ContentIntro = styled.div`
 const ContentImg = styled.div`
   img {
     width: 100%;
-    object-fit: contain;
+    height: 260px;
   }
   @media (min-width: 320px) and (max-width: 480px) {
+    img {
+      width: 100%;
+      height: 260px;
+    }
   }
 `;
 

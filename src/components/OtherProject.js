@@ -95,7 +95,7 @@ function OtherProject() {
 export default OtherProject;
 
 const OtherProjectContanier = styled.div`
-  max-width: 1200px;
+  height: 100%;
   margin: 50px 0;
   h1 {
     margin-bottom: 30px;

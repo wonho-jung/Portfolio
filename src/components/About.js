@@ -66,7 +66,7 @@ function About() {
 export default About;
 
 const AboutContainer = styled.div`
-  height: 100vh;
+  height: 100%;
   ul {
     padding-top: 10px;
 
@@ -93,7 +93,15 @@ const AboutContainer = styled.div`
     line-height:1.125em
   } */
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
+    h1 {
+      font-size: 2em;
+      font-weight: 700;
+    }
+  }
+  @media (min-width: 641x) and (max-width: 1007px) {
+  }
+  @media only screen and (min-width: 1008px) {
     h1 {
       font-size: 2em;
       font-weight: 700;

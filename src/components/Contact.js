@@ -8,7 +8,9 @@ function Contact() {
   return (
     <ContactContainer id="contact">
       <div>
-        <h1>Contact()</h1>
+        <h1>
+          Contact<span>()</span>{" "}
+        </h1>
         <p>Feel free to send an e-mail</p>
         <p> I'll try my best to get back to you!</p>
 
@@ -40,7 +42,10 @@ function Contact() {
 export default Contact;
 
 const ContactContainer = styled.div`
-  height: 30vh;
+  height: 100%;
+  h1 > span {
+    color: #54b689;
+  }
 `;
 
 const Icons = styled.div`

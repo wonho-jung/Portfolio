@@ -20,10 +20,36 @@ const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+
+  height: 90vh;
+
   h1 {
     font-size: 3em;
     line-height: 1.05em;
+    font-weight: 700;
+  }
+  @media only screen and (max-width: 640px) {
+    h1 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.25 em;
+      transform: translate(0, -100%);
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1007px) {
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.125 em;
+  }
+
+  @media only screen and (min-width: 1008px) {
+    h1 {
+      font-size: 5em;
+      font-weight: 700;
+      line-height: 1.05 em;
+      transform: translate(0, -50%);
+    }
   }
   h1:nth-child(1) {
     animation-name: paragraph;
@@ -60,17 +86,10 @@ const HomeContainer = styled.div`
   }
 
   .span-w {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     color: #54b689;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #54b689;
-  }
-  @media (min-width: 320px) and (max-width: 480px) {
-    transform: translate(0, -10%);
-    h1 {
-      font-size: 2em;
-      line-height: 1.25em;
-    }
   }
 `;
