@@ -4,6 +4,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+
 function Contact() {
   return (
     <ContactContainer id="contact">
@@ -53,15 +54,23 @@ const ContactContainer = styled.div`
 `;
 
 const Icons = styled.div`
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  .MuiSvgIcon-root {
-    margin-right: 20px;
-    color: #54b689;
-    :hover {
-      transition: transform 0.2s ease-in-out !important;
-      transform: scale(1.2) !important;
+  @media only screen and (max-width: 640px) {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    .MuiSvgIcon-root {
+      margin-right: 20px;
+      color: #54b689;
+      :hover {
+        transition: transform 0.2s ease-in-out !important;
+        transform: scale(1.2) !important;
+      }
     }
+  }
+  @media (min-width: 641px) and (max-width: 1007px) {
+    display: none;
+  }
+  @media only screen and (min-width: 1008px) {
+    display: none;
   }
 `;

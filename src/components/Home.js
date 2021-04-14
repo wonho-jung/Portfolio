@@ -21,14 +21,14 @@ const HomeContainer = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  height: 90vh;
-
   h1 {
     font-size: 3em;
     line-height: 1.05em;
     font-weight: 700;
   }
   @media only screen and (max-width: 640px) {
+    height: 90vh;
+
     h1 {
       font-size: 2em !important;
       font-weight: 700;
@@ -38,12 +38,15 @@ const HomeContainer = styled.div`
   }
 
   @media (min-width: 641px) and (max-width: 1007px) {
-    font-size: 1.2em;
+    height: 100vh;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 1.125 em;
   }
 
   @media only screen and (min-width: 1008px) {
+    height: 100vh;
+
     h1 {
       font-size: 5em;
       font-weight: 700;

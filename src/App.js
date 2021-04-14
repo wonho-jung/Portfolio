@@ -4,9 +4,8 @@ import RightSidebar from "./components/RightSidebar";
 import Home from "./components/Home";
 import LeftSidebar from "./components/LeftSidebar";
 import Body from "./components/Body";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Loading from "./components/Loading";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   const [loading, setLoading] = useState(true);
   const time = () => {
@@ -40,8 +39,10 @@ const AppContainer = styled.div`
   a {
     text-decoration: none;
     color: #eeeeee;
+    cursor: pointer;
   }
 `;
 const AppBodyContainer = styled.div`
   display: flex;
+  justify-content: center;
 `;

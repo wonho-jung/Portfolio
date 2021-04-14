@@ -4,9 +4,12 @@ import styled from "styled-components";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 function Header() {
+  const [scroll, setScroll] = useState(0);
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
+  window.onscroll = () => {};
   return (
     <HeaderContainer>
       <HeaderLeft>
@@ -143,7 +146,7 @@ const HeaderContainer = styled.div`
   height: 100px;
   display: flex;
   align-items: center;
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 961px) {
     justify-content: space-between;
   }
 `;
@@ -166,8 +169,10 @@ const HeaderRight = styled.div`
   flex-direction: column;
   @media screen and (max-width: 960px) {
     .menu-icon {
+      position: fixed;
+
       display: block !important;
-      position: absolute;
+      /* position: absolute; */
       cursor: pointer;
       right: 30px;
       top: 50px;
@@ -199,7 +204,6 @@ const HeaderRight = styled.div`
     .nav-menu.active {
       -webkit-clip-path: circle(1200px at 90% -10%);
       clip-path: circle(1200px at 90% -10%);
-
       pointer-events: all;
 
       background: #1e2a3a;
@@ -229,7 +233,6 @@ const HeaderRight = styled.div`
     background-color: #54b689;
     width: 0%;
     top: 20px;
-    /* bottom: 10px; */
   }
   .nav-link-ltr:hover::before {
     width: 60px;

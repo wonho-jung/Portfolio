@@ -3,10 +3,13 @@ import styled from "styled-components";
 import FolderOpenIcon from "@material-ui/icons/FolderOpen";
 import CodeIcon from "@material-ui/icons/Code";
 import WebAssetIcon from "@material-ui/icons/WebAsset";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function SideProject({ title, desc, skill, codelink, livelink }) {
   console.log(skill);
+  AOS.init();
   return (
-    <SideProjectContainer>
+    <SideProjectContainer data-aos="fade-right">
       <Header>
         <HeaderLeft>
           <FolderOpenIcon fontSize="large" />
@@ -40,13 +43,28 @@ function SideProject({ title, desc, skill, codelink, livelink }) {
 export default SideProject;
 
 const SideProjectContainer = styled.div`
-  max-width: 300px;
-  margin-bottom: 30px;
-  background-color: #1e2a3a;
-  padding: 20px 30px;
   :hover {
     transition: transform 0.2s ease-in-out !important;
     transform: scale(1.1) !important;
+  }
+  @media only screen and (max-width: 640px) {
+    max-width: 300px;
+    margin-bottom: 30px;
+    background-color: #1e2a3a;
+    padding: 20px 30px;
+  }
+  @media (min-width: 641px) and (max-width: 1007px) {
+    max-width: 300px;
+    margin: 10px;
+    background-color: #1e2a3a;
+    padding: 20px;
+  }
+  @media only screen and (min-width: 1008px) {
+    margin-right: 30px;
+    max-width: 300px;
+    margin-bottom: 30px;
+    background-color: #1e2a3a;
+    padding: 20px 30px;
   }
 `;
 const Header = styled.div`
