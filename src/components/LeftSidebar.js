@@ -21,13 +21,13 @@ export default LeftSidebar;
 
 const LeftSidebarContainer = styled.div`
   position: sticky;
-  top: 400px;
+  top: 500px;
   height: fit-content;
   flex: 0.1;
   display: flex;
   justify-content: center;
   max-width: 150px;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 960px) {
     display: none;
   }
 `;

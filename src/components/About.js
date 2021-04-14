@@ -66,6 +66,7 @@ function About() {
 export default About;
 
 const AboutContainer = styled.div`
+  margin-bottom: 150px;
   height: 100%;
   ul {
     padding-top: 10px;
@@ -83,28 +84,8 @@ const AboutContainer = styled.div`
     }
   }
   h1 {
-    font-size: 3em;
     span {
       color: #54b689;
-    }
-  }
-  /* h1 {
-    font-size: 2.5em;
-    line-height:1.125em
-  } */
-
-  @media only screen and (max-width: 640px) {
-    h1 {
-      font-size: 2em;
-      font-weight: 700;
-    }
-  }
-  @media (min-width: 641x) and (max-width: 1007px) {
-  }
-  @media only screen and (min-width: 1008px) {
-    h1 {
-      font-size: 2em;
-      font-weight: 700;
     }
   }
 `;
@@ -116,18 +97,32 @@ const ContentRight = styled.div`
   img {
     width: 200px;
   }
-  @media (min-width: 320px) and (max-width: 480px) {
+
+  @media only screen and (max-width: 640px) {
     display: none;
+  }
+  @media (min-width: 641px) and (max-width: 1007px) {
+    display: block;
+  }
+  @media only screen and (min-width: 1008px) {
+    display: block;
   }
 `;
 const AboutImgMoboile = styled.div`
-  display: none;
   @media (min-width: 320px) and (max-width: 480px) {
+  }
+  @media only screen and (max-width: 640px) {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
     border-radius: 999px;
+  }
+  @media (min-width: 641px) and (max-width: 1007px) {
+    display: none;
+  }
+  @media only screen and (min-width: 1008px) {
+    display: none;
   }
 
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */

@@ -44,6 +44,4 @@ const AppContainer = styled.div`
 `;
 const AppBodyContainer = styled.div`
   display: flex;
-  @media (min-width: 320px) and (max-width: 480px) {
-  }
 `;

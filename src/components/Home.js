@@ -30,7 +30,7 @@ const HomeContainer = styled.div`
   }
   @media only screen and (max-width: 640px) {
     h1 {
-      font-size: 2em;
+      font-size: 2em !important;
       font-weight: 700;
       line-height: 1.25 em;
       transform: translate(0, -100%);

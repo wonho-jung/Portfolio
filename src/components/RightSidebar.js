@@ -14,7 +14,7 @@ export default RightSidebar;
 const RightSidebarContainer = styled.div`
   /* padding: 0 20px; */
   position: sticky;
-  top: 400px;
+  top: 500px;
   height: fit-content;
   flex: 0.1;
   display: flex;
@@ -22,7 +22,7 @@ const RightSidebarContainer = styled.div`
   align-items: center;
   max-width: 150px;
   writing-mode: vertical-rl;
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 960px) {
     display: none;
   }
 `;

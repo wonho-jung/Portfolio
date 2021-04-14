@@ -8,7 +8,7 @@ function Contact() {
   return (
     <ContactContainer id="contact">
       <div>
-        <h1>
+        <h1 style={{ justifyContent: "center", display: "flex" }}>
           Contact<span>()</span>{" "}
         </h1>
         <p>Feel free to send an e-mail</p>
@@ -42,6 +42,10 @@ function Contact() {
 export default Contact;
 
 const ContactContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
   height: 100%;
   h1 > span {
     color: #54b689;

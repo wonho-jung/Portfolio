@@ -19,7 +19,9 @@ function OtherProject() {
   };
   return (
     <OtherProjectContanier>
-      <h1>Other Projects</h1>
+      <h1>
+        Other Projects <span>()</span>
+      </h1>
       <OtherProjectContent>
         <SideProject
           title="test"
@@ -96,14 +98,13 @@ export default OtherProject;
 
 const OtherProjectContanier = styled.div`
   height: 100%;
-  margin: 50px 0;
-  h1 {
-    margin-bottom: 30px;
-  }
+
+  margin-top: 100px;
 `;
 
 const OtherProjectContent = styled.div`
   display: grid;
+  justify-content: center;
   button {
     border: 1px solid #54b689;
     margin: 0 auto;

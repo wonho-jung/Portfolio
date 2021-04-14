@@ -178,8 +178,13 @@ function Project() {
             <li>Spotify Web API</li>
           </ul>
           <Icons>
-            <CodeIcon />
-            <WebAssetIcon />
+            <a href="#">
+              <CodeIcon />
+            </a>
+            <a href="#">
+              {" "}
+              <WebAssetIcon />
+            </a>
           </Icons>
         </ContentIntro>
       </ProjectContent>
@@ -192,28 +197,28 @@ export default Project;
 
 const ProjectContainer = styled.div`
   height: 100%;
+  margin-bottom: 150px;
 
   h1 {
-    font-size: 3em;
     span {
       color: #54b689;
-    }
-  }
-  @media (min-width: 320px) and (max-width: 480px) {
-    h1 {
-      font-size: 2em;
-    }
-    h2 {
-      font-size: 1.5em;
-    }
-    h3 {
-      font-size: 1.25em;
     }
   }
 `;
 
 const ProjectContent = styled.div`
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
+    margin-bottom: 50px;
+    position: relative;
+    border: 1px solid #54b689;
+  }
+
+  @media (min-width: 641px) and (max-width: 1007px) {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  @media only screen and (min-width: 1008px) {
     margin-top: 30px;
     margin-bottom: 50px;
     position: relative;
@@ -230,7 +235,10 @@ const ContentIntro = styled.div`
       padding-right: 10px;
     }
   }
-  @media (min-width: 320px) and (max-width: 480px) {
+
+  @media only screen and (max-width: 640px) {
+    height: 300px;
+    padding: 20px 10px;
     background-color: #111821;
     position: absolute;
     top: 0;
@@ -240,17 +248,23 @@ const ContentIntro = styled.div`
       opacity: 0.9;
     }
   }
+
+  @media (min-width: 641px) and (max-width: 1007px) {
+  }
+  @media only screen and (min-width: 1008px) {
+  }
 `;
 const ContentImg = styled.div`
-  img {
-    width: 100%;
-    height: 260px;
-  }
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     img {
       width: 100%;
-      height: 260px;
+      height: 300px;
     }
+  }
+
+  @media (min-width: 641px) and (max-width: 1007px) {
+  }
+  @media only screen and (min-width: 1008px) {
   }
 `;
 
