@@ -22,74 +22,74 @@ function OtherProject() {
   return (
     <OtherProjectContanier>
       <h1 data-aos="fade-right">
-        Other Projects <span>()</span>
+        Other Side Projects <span>()</span>
       </h1>
       <OtherProjectContent>
         <SideProject
           title="Redux-todo"
           desc="Learing basic logic of Redux with react."
           skill={["react", "redux"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/Redux-todo/tree/master/src"
+          livelink="https://relaxed-yalow-1735d7.netlify.app/"
         />
         <SideProject
           title="Linkin-clone"
           desc="learn Linkedin webDesign and use firebase database, auth."
           skill={["react", "redux", "firebase"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/linkedin-clone/tree/master/src"
+          livelink="https://hopeful-mestorf-42af11.netlify.app/"
         />
         <SideProject
           title="SnapChat"
           desc="Simple App that you can take a photo,chat with other users."
           skill={["react", "redux", "firebase"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/snapchat/tree/master/src"
+          livelink="https://snapchat-clone-81286.web.app/"
         />
         <SideProject
           title="Gmail-clone"
           desc="compose mail, send data to firebase, get data and use."
           skill={["react", "redux", "firebase"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/gmail-clone/tree/main/src"
+          livelink="https://clone-a1e9b.web.app/"
         />
         <SideProject
           title="google search"
           desc="bulid App to search likes google with google Custom Search API"
           skill={["react", "CustomHook", "firebase"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/google-clone/tree/main/src"
+          livelink="https://optimistic-banach-e16c32.netlify.app/"
         />
         <SideProject
           title="Airbnb-clone"
           desc="Learned design and props in react. "
           skill={["react"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/airbnb-clone-master/tree/master/src"
+          livelink="https://wonderful-swartz-858f40.netlify.app/"
         />
       </OtherProjectContent>
       <MoreProject style={{ display: blockDiv }}>
         <SideProject
           title="slackChat"
-          desc="chat app that you can add channel and chat with another user."
+          desc="chat app that you can add channel or join channel and chat with another user."
           skill={["react", "redux", "firebase"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/slack-clone/tree/master/src"
+          livelink="https://slack-clone-6f504.firebaseapp.com/"
         />
         <SideProject
           title="Clipboard landing page"
           desc="Learned responsive design mobile, tablet, desktop"
           skill={["HTML&CSS"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/wonho-jung-clipboard-landing-page-master"
+          livelink="https://wonho-jung.github.io/wonho-jung-clipboard-landing-page-master/"
         />
         <SideProject
           title="
           Flyo-landing"
           desc="Responsive design and CSS Skill"
           skill={["HTML&CSS"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
+          codelink="https://github.com/wonho-jung/Flyo-landing"
+          livelink="https://wonho-jung.github.io/Flyo-landing/"
         />
       </MoreProject>
       <Button onClick={handleBtn}>{btnState}</Button>

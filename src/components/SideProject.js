@@ -15,15 +15,15 @@ function SideProject({ title, desc, skill, codelink, livelink }) {
           <FolderOpenIcon fontSize="large" />
         </HeaderLeft>
         <HeaderRight>
-          <a href="#">
+          <a href={codelink} target="_blank">
             <CodeIcon />
           </a>
-          <a href="#">
+          <a href={livelink} target="_blank">
             <WebAssetIcon />
           </a>
         </HeaderRight>
       </Header>
-      <a href="#">
+      <a href={livelink} target="_blank">
         <Body>
           <h2>{title}</h2>
           <p>{desc}</p>

@@ -5,9 +5,7 @@ function RightSidebar() {
   return (
     <RightSidebarContainer>
       <div>
-        <a href="#">
-          <p>won9.developer@gmail.com</p>
-        </a>
+        <p>won9.developer@gmail.com</p>
       </div>
     </RightSidebarContainer>
   );
@@ -16,7 +14,7 @@ function RightSidebar() {
 export default RightSidebar;
 
 const RightSidebarContainer = styled.div`
-  div > a > p {
+  div > p {
     color: #54b689;
     :hover {
       cursor: pointer;

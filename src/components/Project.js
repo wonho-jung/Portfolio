@@ -25,7 +25,7 @@ function Project() {
 
       <ProjectContent data-aos="fade-right">
         <ContentImg>
-          <a href="#">
+          <a href="https://spotify-clone-c80b5.web.app/" target="_blank">
             <img src={spotify} alt="" />
           </a>
         </ContentImg>
@@ -52,10 +52,13 @@ function Project() {
             <li>Spotify Web API</li>
           </ul>
           <Icons>
-            <a href="#">
+            <a
+              href="https://github.com/wonho-jung/wontify/tree/master/src"
+              target="_blank"
+            >
               <CodeIcon />
             </a>
-            <a href="#">
+            <a href="https://spotify-clone-c80b5.web.app/" target="_blank">
               <WebAssetIcon />
             </a>
           </Icons>
@@ -64,7 +67,9 @@ function Project() {
 
       <ProjectContent className="reverse" data-aos="fade-right">
         <ContentImg>
-          <img src={cov19} alt="" />
+          <a href="https://epic-jennings-e181db.netlify.app/" target="_blank">
+            <img src={cov19} alt="" />
+          </a>
         </ContentImg>
 
         <ContentIntro className="reverse-intro">
@@ -87,15 +92,24 @@ function Project() {
             <li>disease.sh API</li>
           </ul>
           <Icons>
-            <CodeIcon />
-            <WebAssetIcon />
+            <a
+              href="https://github.com/wonho-jung/covid-19-tracker/tree/master/src"
+              target="_blank"
+            >
+              <CodeIcon />
+            </a>
+            <a href="https://epic-jennings-e181db.netlify.app/" target="_blank">
+              <WebAssetIcon />
+            </a>
           </Icons>
         </ContentIntro>
       </ProjectContent>
 
       <ProjectContent data-aos="fade-right">
         <ContentImg>
-          <img src={amazon} alt="" />
+          <a href="https://angry-lamarr-364c96.netlify.app/" target="_blanks">
+            <img src={amazon} alt="" />
+          </a>
         </ContentImg>
 
         <ContentIntro>
@@ -103,8 +117,9 @@ function Project() {
           <h2>womazon</h2>
           <div className="project-p">
             <p>
-              E-Comm Store(amazon) with loginPage, products,checkout,payment.
-              Use reducer,Axios stripe.com APi, firebase,hosting on netlify.
+              e-commerce store(amazon) with loginPage,
+              products,checkout,payment. Use reducer,Axios stripe.com APi,
+              firebase,hosting on netlify.
             </p>
           </div>
           <div className="project-pbox"></div>
@@ -117,15 +132,27 @@ function Project() {
             <li>stripe API</li>
           </ul>
           <Icons>
-            <CodeIcon />
-            <WebAssetIcon />
+            <a
+              href="https://github.com/wonho-jung/Amazone_v2/tree/master/src"
+              target="_blanks"
+            >
+              <CodeIcon />
+            </a>
+            <a href="https://angry-lamarr-364c96.netlify.app/" target="_blanks">
+              <WebAssetIcon />
+            </a>
           </Icons>
         </ContentIntro>
       </ProjectContent>
 
       <ProjectContent className="reverse" data-aos="fade-right">
         <ContentImg>
-          <img src={netfilx} alt="" />
+          <a
+            href="https://jovial-goldstine-f3cfbc.netlify.app/"
+            target="_blanks"
+          >
+            <img src={netfilx} alt="" />
+          </a>
         </ContentImg>
 
         <ContentIntro className="reverse-intro">
@@ -147,15 +174,27 @@ function Project() {
             <li>netlify</li>
           </ul>
           <Icons>
-            <CodeIcon />
-            <WebAssetIcon />
+            <a
+              href="https://github.com/wonho-jung/wonflix/tree/main/src"
+              target="_blanks"
+            >
+              <CodeIcon />
+            </a>
+            <a
+              href="https://jovial-goldstine-f3cfbc.netlify.app/"
+              target="_blanks"
+            >
+              <WebAssetIcon />
+            </a>
           </Icons>
         </ContentIntro>
       </ProjectContent>
 
       <ProjectContent data-aos="fade-right">
         <ContentImg>
-          <img src={wontwitter} alt="" />
+          <a href="https://won-twitter.firebaseapp.com/#/" target="_blanks">
+            <img src={wontwitter} alt="" />
+          </a>
         </ContentImg>
 
         <ContentIntro>
@@ -175,15 +214,27 @@ function Project() {
             <li>Firebase</li>
           </ul>
           <Icons>
-            <CodeIcon />
-            <WebAssetIcon />
+            <a
+              href="https://github.com/wonho-jung/won-twitter/tree/master/src"
+              target="_blanks"
+            >
+              <CodeIcon />
+            </a>
+            <a href="https://won-twitter.firebaseapp.com/#/" target="_blanks">
+              <WebAssetIcon />
+            </a>
           </Icons>
         </ContentIntro>
       </ProjectContent>
 
       <ProjectContent className="reverse" data-aos="fade-right">
         <ContentImg>
-          <img src={samcha} alt="" />
+          <a
+            href="https://nervous-volhard-04221d.netlify.app/"
+            target="_blanks"
+          >
+            <img src={samcha} alt="" />
+          </a>
         </ContentImg>
 
         <ContentIntro className="reverse-intro">
@@ -204,10 +255,16 @@ function Project() {
             <li>Styled-components</li>
           </ul>
           <Icons>
-            <a href="#">
+            <a
+              href="https://github.com/wonho-jung/samcha-ver2/tree/master/src"
+              target="_blanks"
+            >
               <CodeIcon />
             </a>
-            <a href="#">
+            <a
+              href="https://nervous-volhard-04221d.netlify.app/"
+              target="_blanks"
+            >
               <WebAssetIcon />
             </a>
           </Icons>

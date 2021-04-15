@@ -14,28 +14,39 @@ function Contact() {
         </h1>
         <p>
           Interested in hiring me for your project or just want to say hi? You
-          can send me a message on <a href="#">facebook</a>,{" "}
-          <a href="#">instargram</a> or send me an email to
-          <a href="#"> won9.developer@gmail.com</a>
+          can send me a message on{" "}
+          <a
+            href="https://www.facebook.com/profile.php?id=100003002057392"
+            target="_blank"
+          >
+            facebook
+          </a>
+          ,{" "}
+          <a href="https://www.instagram.com/won.9/" target="_blank">
+            instargram
+          </a>{" "}
+          or send me an email to
+          <span> won9.developer@gmail.com</span>
         </p>
         <p> I'll try my best to get back to you!</p>
       </div>
       <Icons>
-        <a href="">
-          {" "}
+        <a href="https://github.com/wonho-jung" target="_blank">
           <GitHubIcon />
         </a>
-        <a href="">
-          {" "}
+        <a href="https://www.instagram.com/won.9/" target="_blank">
           <InstagramIcon />
         </a>
-        <a href="">
-          {" "}
+        <a
+          href="https://www.facebook.com/profile.php?id=100003002057392"
+          target="_blank"
+        >
           <FacebookIcon />
         </a>
-
-        <a href="">
-          {" "}
+        <a
+          href="https://www.linkedin.com/in/won-ho-jung-7a1330170/"
+          target="_blank"
+        >
           <LinkedInIcon />
         </a>
       </Icons>
@@ -59,7 +70,9 @@ const ContactContainer = styled.div`
       max-width: 500px;
       p {
       }
-      p > a {
+      p > a,
+      span {
+        cursor: pointer;
         color: #54b689;
         opacity: 0.7;
         :hover {
