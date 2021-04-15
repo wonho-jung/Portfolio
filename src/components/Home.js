@@ -8,7 +8,7 @@ function Home() {
       <h1>
         I'm <span className="span-w">W</span>on,
       </h1>
-      <h1>Web devloper.</h1>
+      <h1>Web developer.</h1>
     </HomeContainer>
   );
 }
