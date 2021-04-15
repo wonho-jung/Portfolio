@@ -14,7 +14,7 @@ function About() {
         <ContentLeft>
           <p>
             Hello! My name is Wonho Jung and I love creatings that live on the
-            web. My interest in web devlopment started back in 2019 when i learn
+            web. My interest in web developer started back in 2019 when i learn
             HTML&CSS curriculum in shcool. I've had the privilege of working at
             shool as web developer Intern!
           </p>
