@@ -13,7 +13,7 @@ function About() {
       <AboutContent>
         <ContentLeft>
           <p>
-            Hello! My name is Wonho Jung and I love creatings taht live on the
+            Hello! My name is Wonho Jung and I love creatings that live on the
             web. My interest in web devlopment started back in 2019 when i learn
             HTML&CSS curriculum in shcool. I've had the privilege of working at
             shool as web devloper Intern!
@@ -90,6 +90,8 @@ const AboutContainer = styled.div`
   }
 
   @media only screen and (min-width: 1008px) {
+    margin-bottom: 300px;
+
     position: relative;
     display: flex;
     flex-direction: column;
@@ -97,7 +99,7 @@ const AboutContainer = styled.div`
     align-items: center;
     h1 {
       position: absolute;
-      top: -100px;
+      top: -70px;
       left: 0;
     }
   }

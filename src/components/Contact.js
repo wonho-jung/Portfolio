@@ -12,10 +12,13 @@ function Contact() {
         <h1 style={{ justifyContent: "center", display: "flex" }}>
           Contact<span>()</span>{" "}
         </h1>
-        <p>Feel free to send an e-mail</p>
+        <p>
+          Interested in hiring me for your project or just want to say hi? You
+          can send me a message on <a href="#">facebook</a>,{" "}
+          <a href="#">instargram</a> or send me an email to
+          <a href="#"> won9.developer@gmail.com</a>
+        </p>
         <p> I'll try my best to get back to you!</p>
-
-        <p> won9.developer@gmail.com</p>
       </div>
       <Icons>
         <a href="">
@@ -46,10 +49,24 @@ const ContactContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   height: 100%;
   h1 > span {
     color: #54b689;
+  }
+  @media only screen and (min-width: 1008px) {
+    div {
+      max-width: 500px;
+      p {
+      }
+      p > a {
+        color: #54b689;
+        opacity: 0.7;
+        :hover {
+          opacity: 1;
+        }
+      }
+    }
   }
 `;
 

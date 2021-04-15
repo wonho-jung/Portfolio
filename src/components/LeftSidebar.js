@@ -44,7 +44,7 @@ const LeftSidebarContainer = styled.div`
   @media only screen and (min-width: 1008px) {
     display: block;
     position: sticky;
-    top: 500px;
+    top: 600px;
     height: fit-content;
     flex: 0.1;
     display: flex;

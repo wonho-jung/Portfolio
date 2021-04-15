@@ -86,5 +86,10 @@ const BodyContainer = styled.div`
     justify-content: center;
     padding: 0 100px;
     margin: 0 100px;
+    h1 {
+      font-size: 3em;
+      line-height: 1.5em;
+      margin-bottom: 20px;
+    }
   }
 `;

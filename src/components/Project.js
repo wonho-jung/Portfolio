@@ -7,6 +7,7 @@ import cov19 from "../assets/cov19.PNG";
 import netfilx from "../assets/netfilx.PNG";
 
 import samcha from "../assets/samcha.PNG";
+import wontwitter from "../assets/wontwitter.PNG";
 
 import CodeIcon from "@material-ui/icons/Code";
 import WebAssetIcon from "@material-ui/icons/WebAsset";
@@ -71,20 +72,19 @@ function Project() {
           <h2>Cov-19-tracker</h2>
           <div className="project-p">
             <p>
-              This application utilizes the Spotify Web-API. view your
-              playlist,recently played,New Releases,Top playList and more,Search
-              singer or sing, audio play with preview of track
-              stop,prev,next,volume control.
+              Tracking cov-19 case in the world. you can see number of cov-19
+              case, Recovered, Deaths and every country. Use disease.sh Api,
+              leaflet (map),chart.js.
             </p>
           </div>
           <div className="project-pbox"></div>
 
           <ul>
             <li>React</li>
-            <li>Redux</li>
-            <li>Firebase</li>
-            <li>Styled-components</li>
-            <li>Spotify Web API</li>
+            <li>netlify</li>
+            <li>chart.js</li>
+            <li>leaflet</li>
+            <li>disease.sh API</li>
           </ul>
           <Icons>
             <CodeIcon />
@@ -103,19 +103,18 @@ function Project() {
           <h2>womazon</h2>
           <div className="project-p">
             <p>
-              This application utilizes the Spotify Web-API. view your
-              playlist,recently played,New Releases,Top playList and more,Search
-              singer or sing, audio play with preview of track
-              stop,prev,next,volume control.
+              E-Comm Store(amazon) with loginPage, products,checkout,payment.
+              Use reducer,Axios stripe.com APi, firebase,hosting on netlify.
             </p>
           </div>
           <div className="project-pbox"></div>
           <ul>
             <li>React</li>
-            <li>Redux</li>
+            <li>Axios</li>
             <li>Firebase</li>
-            <li>Styled-components</li>
-            <li>Spotify Web API</li>
+            <li>Reducer</li>
+            <li>netlify</li>
+            <li>stripe API</li>
           </ul>
           <Icons>
             <CodeIcon />
@@ -134,18 +133,18 @@ function Project() {
           <h2>Wonflix</h2>
           <div className="project-p">
             <p>
-              This application utilizes the Spotify Web-API. playlist,recently
-              played,New Releases,Top play lists,work out a,Search singer or
-              sing, playing track,stop,prev,next,volumn control.
+              Learning React(class component) and ES6 by buliding a Movie
+              Discovery App.Movie page, Tv Page, Search Page. Use Movie DB API.
             </p>
           </div>
           <div className="project-pbox"></div>
           <ul>
             <li>React</li>
-            <li>Redux</li>
-            <li>Firebase</li>
+            <li>Bootstrap</li>
+            <li>Helmet</li>
             <li>Styled-components</li>
-            <li>Spotify Web API</li>
+
+            <li>netlify</li>
           </ul>
           <Icons>
             <CodeIcon />
@@ -156,26 +155,24 @@ function Project() {
 
       <ProjectContent data-aos="fade-right">
         <ContentImg>
-          <img src={spotify} alt="" />
+          <img src={wontwitter} alt="" />
         </ContentImg>
 
         <ContentIntro>
           <h3>Featured Project</h3>
-          <h2>WonSlack</h2>
+          <h2>wonitter</h2>
           <div className="project-p">
             <p>
-              This application utilizes the Spotify WEB-API. playlist,recently
-              played,New Releases,Top play lists,work out...,Search singer or
-              sing, playing track,stop,prev,next,volumn control.
+              A simple app built to social media app that you can login with
+              github,google, post with picture, remove, update and change
+              profile.
             </p>
           </div>
           <div className="project-pbox"></div>
           <ul>
             <li>React</li>
-            <li>Redux</li>
+            <li>uuid</li>
             <li>Firebase</li>
-            <li>Styled-components</li>
-            <li>Spotify Web API</li>
           </ul>
           <Icons>
             <CodeIcon />
@@ -195,19 +192,16 @@ function Project() {
           <div>
             <div className="project-p">
               <p>
-                This application utilizes the Spotify WEB-API. playlist,recently
-                played,New Releases,Top play lists,work out...,Search singer or
-                sing, playing track,stop,prev,next,volumn control.
+                Website build for korean restaurant SAMCHA in montreal. Learn
+                more about CSS skill(grid,design).
               </p>
             </div>
             <div className="project-pbox"></div>
           </div>
           <ul>
             <li>React</li>
-            <li>Redux</li>
-            <li>Firebase</li>
+            <li>leaflet</li>
             <li>Styled-components</li>
-            <li>Spotify Web API</li>
           </ul>
           <Icons>
             <a href="#">
@@ -228,7 +222,7 @@ function Project() {
 export default Project;
 
 const ProjectContainer = styled.div`
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   height: 100%;
 
   h1 {
@@ -245,7 +239,7 @@ const ProjectContainer = styled.div`
     align-items: center;
     .projectMain-h1 {
       position: absolute;
-      top: -100px;
+      top: -80px;
       left: 0;
     }
     .reverse {

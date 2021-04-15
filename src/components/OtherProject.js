@@ -26,67 +26,68 @@ function OtherProject() {
       </h1>
       <OtherProjectContent>
         <SideProject
-          title="test"
-          desc="asdfasdfsd"
+          title="Redux-todo"
+          desc="Learing basic logic of Redux with react."
+          skill={["react", "redux"]}
+          codelink="sdfsdf"
+          livelink="sdfsdf"
+        />
+        <SideProject
+          title="Linkin-clone"
+          desc="learn Linkedin webDesign and use firebase database, auth."
           skill={["react", "redux", "firebase"]}
           codelink="sdfsdf"
           livelink="sdfsdf"
         />
         <SideProject
-          title="test"
-          desc="asdfasdfsd"
+          title="SnapChat"
+          desc="Simple App that you can take a photo,chat with other users."
           skill={["react", "redux", "firebase"]}
           codelink="sdfsdf"
           livelink="sdfsdf"
         />
         <SideProject
-          title="test"
-          desc="asdfasdfsd"
+          title="Gmail-clone"
+          desc="compose mail, send data to firebase, get data and use."
           skill={["react", "redux", "firebase"]}
           codelink="sdfsdf"
           livelink="sdfsdf"
         />
         <SideProject
-          title="test"
-          desc="asdfasdfsd"
-          skill={["react", "redux", "firebase"]}
+          title="google search"
+          desc="bulid App to search likes google with google Custom Search API"
+          skill={["react", "CustomHook", "firebase"]}
           codelink="sdfsdf"
           livelink="sdfsdf"
         />
         <SideProject
-          title="test"
-          desc="asdfasdfsd"
-          skill={["react", "redux", "firebase"]}
-          codelink="sdfsdf"
-          livelink="sdfsdf"
-        />
-        <SideProject
-          title="test"
-          desc="asdfasdfsd"
-          skill={["react", "redux", "firebase"]}
+          title="Airbnb-clone"
+          desc="Learned design and props in react. "
+          skill={["react"]}
           codelink="sdfsdf"
           livelink="sdfsdf"
         />
       </OtherProjectContent>
       <MoreProject style={{ display: blockDiv }}>
         <SideProject
-          title="test"
-          desc="asdfasdfsd"
+          title="slackChat"
+          desc="chat app that you can add channel and chat with another user."
           skill={["react", "redux", "firebase"]}
           codelink="sdfsdf"
           livelink="sdfsdf"
         />
         <SideProject
-          title="test"
-          desc="asdfasdfsd"
-          skill={["react", "redux", "firebase"]}
+          title="Clipboard landing page"
+          desc="Learned responsive design mobile, tablet, desktop"
+          skill={["HTML&CSS"]}
           codelink="sdfsdf"
           livelink="sdfsdf"
         />
         <SideProject
-          title="test"
-          desc="asdfasdfsd"
-          skill={["react", "redux", "firebase"]}
+          title="
+          Flyo-landing"
+          desc="Responsive design and CSS Skill"
+          skill={["HTML&CSS"]}
           codelink="sdfsdf"
           livelink="sdfsdf"
         />
@@ -114,6 +115,12 @@ const OtherProjectContanier = styled.div`
     color: #eeeeee;
     :hover {
       background-color: #54b689;
+    }
+  }
+
+  @media only screen and (min-width: 1008px) {
+    h1 {
+      margin-bottom: 30px;
     }
   }
 `;

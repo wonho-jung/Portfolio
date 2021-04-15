@@ -45,7 +45,7 @@ const RightSidebarContainer = styled.div`
 
     display: block;
     position: sticky;
-    top: 500px;
+    top: 600px;
     height: fit-content;
     flex: 0.1;
     display: flex;
