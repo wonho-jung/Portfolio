@@ -55,7 +55,7 @@ function OtherProject() {
         />
         <SideProject
           title="google search"
-          desc="bulid App to search likes google with google Custom Search API"
+          desc="bulid App to search likes google with google Custom Search API."
           skill={["react", "CustomHook", "firebase"]}
           codelink="https://github.com/wonho-jung/google-clone/tree/main/src"
           livelink="https://optimistic-banach-e16c32.netlify.app/"
@@ -78,7 +78,7 @@ function OtherProject() {
         />
         <SideProject
           title="Clipboard landing page"
-          desc="Learned responsive design mobile, tablet, desktop"
+          desc="Learned responsive design mobile, tablet, desktop."
           skill={["HTML&CSS"]}
           codelink="https://github.com/wonho-jung/wonho-jung-clipboard-landing-page-master"
           livelink="https://wonho-jung.github.io/wonho-jung-clipboard-landing-page-master/"
@@ -86,7 +86,7 @@ function OtherProject() {
         <SideProject
           title="
           Flyo-landing"
-          desc="Responsive design and CSS Skill"
+          desc="Responsive design and CSS skill."
           skill={["HTML&CSS"]}
           codelink="https://github.com/wonho-jung/Flyo-landing"
           livelink="https://wonho-jung.github.io/Flyo-landing/"
