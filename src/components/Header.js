@@ -3,13 +3,12 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import resume from "../assets/WonhoJung_CV_pdf.pdf";
 function Header() {
-  const [scroll, setScroll] = useState(0);
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  window.onscroll = () => {};
   return (
     <HeaderContainer>
       <HeaderLeft>
@@ -130,7 +129,9 @@ function Header() {
 
           <li>
             <Button className="resumeBTN" onClick={closeMobileMenu}>
-              Resume
+              <a href={resume} target="_blank">
+                Resume
+              </a>
             </Button>
           </li>
         </ul>
@@ -172,7 +173,6 @@ const HeaderRight = styled.div`
       position: fixed;
 
       display: block !important;
-      /* position: absolute; */
       cursor: pointer;
       right: 30px;
       top: 50px;
@@ -271,5 +271,3 @@ const HeaderRight = styled.div`
     opacity: 1;
   }
 `;
-
-// color: #00adb5;

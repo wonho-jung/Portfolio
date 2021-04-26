@@ -89,7 +89,6 @@ const HomeContainer = styled.div`
   }
 
   .span-w {
-    /* font-size: 1.5em; */
     color: #54b689;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 0.5px;

@@ -147,10 +147,7 @@ function Project() {
 
       <ProjectContent className="reverse" data-aos="fade-right">
         <ContentImg>
-          <a
-            href="https://jovial-goldstine-f3cfbc.netlify.app/"
-            target="_blanks"
-          >
+          <a href="https://wonflix-v2.web.app/" target="_blanks">
             <img src={netfilx} alt="" />
           </a>
         </ContentImg>
@@ -160,30 +157,25 @@ function Project() {
           <h2>Wonflix</h2>
           <div className="project-p">
             <p>
-              Learning React(class component) and ES6 by buliding a Movie
-              Discovery App.Movie page, Tv Page, Search Page. Use Movie DB API.
+              Learning React, Redux and ES6 by buliding a Movie Discovery
+              App.Movie page, Tv Page, Search Page,Login Page, Payment Page. Use
+              Movie DB API, Firebase as DB and payment(stripe).
             </p>
           </div>
           <div className="project-pbox"></div>
           <ul>
             <li>React</li>
             <li>Bootstrap</li>
-            <li>Helmet</li>
+            <li>Redux</li>
             <li>Styled-components</li>
-
-            <li>netlify</li>
+            <li>Stripe</li>
+            <li>Firebase</li>
           </ul>
           <Icons>
-            <a
-              href="https://github.com/wonho-jung/wonflix/tree/main/src"
-              target="_blanks"
-            >
+            <a href="https://github.com/wonho-jung/wonflix-v2" target="_blanks">
               <CodeIcon />
             </a>
-            <a
-              href="https://jovial-goldstine-f3cfbc.netlify.app/"
-              target="_blanks"
-            >
+            <a href="https://wonflix-v2.web.app/" target="_blanks">
               <WebAssetIcon />
             </a>
           </Icons>

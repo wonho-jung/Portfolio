@@ -28,7 +28,6 @@ const BodyContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin: 0px auto; */
   h1 {
     font-weight: 700;
   }

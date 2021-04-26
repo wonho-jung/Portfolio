@@ -13,9 +13,10 @@ function About() {
       <AboutContent>
         <ContentLeft>
           <p>
-            Hello! My name is Shaun (Wonho) Jung, and my passion lies within 
-            the frond-end development. I was introduced to web-developement back in 2019 when I learned
-            HTML & CSS in school, and my interest in front-end development never ceased since then. 
+            Hello! My name is Shaun (Wonho) Jung, and my passion lies within the
+            frond-end development. I was introduced to web-developement back in
+            2019 when I learned HTML & CSS in school, and my interest in
+            front-end development never ceased since then.
           </p>
           <p>Here are a few tools that I've been working with recently:</p>
           <ul className>
@@ -94,7 +95,6 @@ const AboutContainer = styled.div`
     position: relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     h1 {
       position: absolute;
@@ -141,8 +141,6 @@ const AboutImgMoboile = styled.div`
   @media only screen and (min-width: 1007px) {
     display: none;
   }
-
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
   img {
     border-radius: 999px;
