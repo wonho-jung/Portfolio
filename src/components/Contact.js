@@ -13,8 +13,8 @@ function Contact() {
           Contact<span>()</span>{" "}
         </h1>
         <p>
-          Interested in hiring me for your project or just want to say hi? You
-          can send me a message on{" "}
+          For contact, You
+          can reach out to me via {" "}
           <a
             href="https://www.facebook.com/profile.php?id=100003002057392"
             target="_blank"
@@ -26,9 +26,9 @@ function Contact() {
             instargram
           </a>{" "}
           or send me an email to
-          <span> won9.developer@gmail.com</span>
+          <span> won9.developer@gmail.com</span>.
         </p>
-        <p> I'll try my best to get back to you!</p>
+        <p> I'll get back to you as quickly as possible!</p>
       </div>
       <Icons>
         <a href="https://github.com/wonho-jung" target="_blank">
@@ -65,12 +65,7 @@ const ContactContainer = styled.div`
   h1 > span {
     color: #54b689;
   }
-  @media only screen and (min-width: 1008px) {
-    div {
-      max-width: 500px;
-      p {
-      }
-      p > a,
+  p > a,
       span {
         cursor: pointer;
         color: #54b689;
@@ -80,6 +75,18 @@ const ContactContainer = styled.div`
         }
       }
     }
+    @media (min-width: 641px) and (max-width: 1007px) {
+      div {
+      max-width: 600px;
+
+
+  }
+  }
+  @media only screen and (min-width: 1008px) {
+    div {
+      max-width: 600px;
+
+
   }
 `;
 

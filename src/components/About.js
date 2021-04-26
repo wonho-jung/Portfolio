@@ -13,12 +13,11 @@ function About() {
       <AboutContent>
         <ContentLeft>
           <p>
-            Hello! My name is Wonho Jung and I love creatings that live on the
-            web. My interest in web developer started back in 2019 when i learn
-            HTML&CSS curriculum in shcool. I've had the privilege of working at
-            shool as web developer Intern!
+            Hello! My name is Shaun (Wonho) Jung, and my passion lies within 
+            the frond-end development. I was introduced to web-developement back in 2019 when I learned
+            HTML & CSS in school, and my interest in front-end development never ceased since then. 
           </p>
-          <p>Here are a few technologies I've been working with recently:</p>
+          <p>Here are a few tools that I've been working with recently:</p>
           <ul className>
             <li>
               <ArrowRightIcon fontSize="small" />
