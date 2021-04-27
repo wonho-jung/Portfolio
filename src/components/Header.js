@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import resume from "../assets/WonhoJung_CV_pdf.pdf";
+import resume from "../assets/cv.pdf";
 function Header() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);

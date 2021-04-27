@@ -6,7 +6,7 @@ function Home() {
     <HomeContainer>
       <h1>Hello!</h1>
       <h1>
-        I'm <span className="span-w">W</span>on,
+        I'm <span className="span-w">S</span>amuel ,
       </h1>
       <h1>Web developer.</h1>
     </HomeContainer>

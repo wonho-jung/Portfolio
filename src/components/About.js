@@ -3,6 +3,7 @@ import styled from "styled-components";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import mypic from "../assets/mypic.jpg";
 function About() {
   AOS.init();
   return (
@@ -13,9 +14,9 @@ function About() {
       <AboutContent>
         <ContentLeft>
           <p>
-            Hello! My name is Shaun (Wonho) Jung, and my passion lies within the
-            frond-end development. I was introduced to web-developement back in
-            2019 when I learned HTML & CSS in school, and my interest in
+            Hello! My name is Samuel (Wonho) Jung, and my passion lies within
+            the frond-end development. I was introduced to web-developement back
+            in 2019 when I learned HTML5 & CSS3 in school, and my interest in
             front-end development never ceased since then.
           </p>
           <p>Here are a few tools that I've been working with recently:</p>
@@ -47,17 +48,11 @@ function About() {
           </ul>
         </ContentLeft>
         <ContentRight>
-          <img
-            src="https://scontent.fymq2-1.fna.fbcdn.net/v/t1.18169-9/21767960_1343095129133876_6848337729659723981_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=cJ3FOobZEpsAX_wJipS&_nc_ht=scontent.fymq2-1.fna&oh=3814dd8249b2f296137725bc025b9311&oe=60993813"
-            alt=""
-          />
+          <img src={mypic} alt="" />
         </ContentRight>
       </AboutContent>
       <AboutImgMoboile>
-        <img
-          src="https://scontent.fymq2-1.fna.fbcdn.net/v/t1.18169-9/21767960_1343095129133876_6848337729659723981_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=cJ3FOobZEpsAX_wJipS&_nc_ht=scontent.fymq2-1.fna&oh=3814dd8249b2f296137725bc025b9311&oe=60993813"
-          alt=""
-        />
+        <img src={mypic} alt="" />
       </AboutImgMoboile>
     </AboutContainer>
   );

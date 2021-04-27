@@ -6,6 +6,8 @@ import LeftSidebar from "./components/LeftSidebar";
 import Body from "./components/Body";
 import React, { useState } from "react";
 import Loading from "./components/Loading";
+import { Helmet } from "react-helmet";
+
 function App() {
   const [loading, setLoading] = useState(true);
   const time = () => {
@@ -16,6 +18,9 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <title>Won.9 Dev</title>
+      </Helmet>
       {loading ? (
         <Loading />
       ) : (
