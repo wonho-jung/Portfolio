@@ -35,11 +35,11 @@ function About() {
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />
-              styled-components
+              Styled-components
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />
-              firebase
+              Firebase
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />

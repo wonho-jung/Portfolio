@@ -27,43 +27,43 @@ function OtherProject() {
       <OtherProjectContent>
         <SideProject
           title="Redux-todo"
-          desc="Learing basic logic of Redux with react."
-          skill={["react", "redux"]}
+          desc="Using Redux, one can exchange the data between unconnected components and form a to do list."
+          skill={["React", "Redux"]}
           codelink="https://github.com/wonho-jung/Redux-todo/tree/master/src"
           livelink="https://relaxed-yalow-1735d7.netlify.app/"
         />
         <SideProject
           title="Linkin-clone"
-          desc="learn Linkedin webDesign and use firebase database, auth."
-          skill={["react", "redux", "firebase"]}
+          desc="A user can register on this website, login and leave message on the home page."
+          skill={["React", "Redux", "Firebase"]}
           codelink="https://github.com/wonho-jung/linkedin-clone/tree/master/src"
           livelink="https://hopeful-mestorf-42af11.netlify.app/"
         />
         <SideProject
           title="SnapChat"
-          desc="Simple App that you can take a photo,chat with other users."
-          skill={["react", "redux", "firebase"]}
+          desc="This is a simple app that allows a user to send a message with a real time picture through react-webcam."
+          skill={["React", "Redux", "Firebase"]}
           codelink="https://github.com/wonho-jung/snapchat/tree/master/src"
           livelink="https://snapchat-clone-81286.web.app/"
         />
         <SideProject
           title="Gmail-clone"
-          desc="compose mail, send data to firebase, get data and use."
-          skill={["react", "redux", "firebase"]}
+          desc="This app is modeled based on the Gmail page. Users can send and receive e-mails."
+          skill={["React", "Redux", "Firebase"]}
           codelink="https://github.com/wonho-jung/gmail-clone/tree/main/src"
           livelink="https://clone-a1e9b.web.app/"
         />
         <SideProject
           title="google search"
-          desc="bulid App to search likes google with google Custom Search API."
-          skill={["react", "CustomHook", "firebase"]}
+          desc="This is a search engine. Similar to Google, users can find information on this app through google search API."
+          skill={["React", "CustomHook", "Firebase"]}
           codelink="https://github.com/wonho-jung/google-clone/tree/main/src"
           livelink="https://optimistic-banach-e16c32.netlify.app/"
         />
         <SideProject
           title="Airbnb-clone"
-          desc="Learned design and props in react. "
-          skill={["react"]}
+          desc="This app is modeled based on Airbnb. It consists of home and search pages without actual functions for reserving a temporary stay. "
+          skill={["React"]}
           codelink="https://github.com/wonho-jung/airbnb-clone-master/tree/master/src"
           livelink="https://wonderful-swartz-858f40.netlify.app/"
         />
@@ -71,14 +71,14 @@ function OtherProject() {
       <MoreProject style={{ display: blockDiv }}>
         <SideProject
           title="slackChat"
-          desc="chat app that you can add channel or join channel and chat with another user."
-          skill={["react", "redux", "firebase"]}
+          desc="A user can login with a Google account. The user can create a channel, join a channel, and chat with other users on the platform."
+          skill={["React", "Redux", "Firebase"]}
           codelink="https://github.com/wonho-jung/slack-clone/tree/master/src"
           livelink="https://slack-clone-6f504.firebaseapp.com/"
         />
         <SideProject
           title="Clipboard landing page"
-          desc="Learned responsive design mobile, tablet, desktop."
+          desc="This app is a landing page based on the responsive web design."
           skill={["HTML&CSS"]}
           codelink="https://github.com/wonho-jung/wonho-jung-clipboard-landing-page-master"
           livelink="https://wonho-jung.github.io/wonho-jung-clipboard-landing-page-master/"
@@ -86,7 +86,7 @@ function OtherProject() {
         <SideProject
           title="
           Flyo-landing"
-          desc="Responsive design and CSS skill."
+          desc="This app is a landing page based on the responsive web design."
           skill={["HTML&CSS"]}
           codelink="https://github.com/wonho-jung/Flyo-landing"
           livelink="https://wonho-jung.github.io/Flyo-landing/"
@@ -105,7 +105,7 @@ const OtherProjectContanier = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  width: 100%;
   margin-top: 100px;
   button {
     margin-top: 20px;
@@ -129,38 +129,49 @@ const OtherProjectContent = styled.div`
   @media only screen and (max-width: 640px) {
     display: grid;
     justify-content: center;
+    grid-gap: 5px;
   }
   @media (min-width: 641px) and (max-width: 1007px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
   @media (min-width: 1008px) and (max-width: 1300px) {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
   }
   @media only screen and (min-width: 1301px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
   }
 `;
 const MoreProject = styled.div`
   @media only screen and (max-width: 640px) {
     display: grid;
     justify-content: center;
+    grid-gap: 20px;
   }
   @media (min-width: 641px) and (max-width: 1007px) {
     display: grid;
 
     grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+
+    grid-gap: 20px;
   }
   @media (min-width: 1008px) and (max-width: 1300px) {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+
+    grid-gap: 20px;
   }
   @media only screen and (min-width: 1301px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+    grid-gap: 20px;
   }
 `;

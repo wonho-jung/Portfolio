@@ -43,6 +43,8 @@ function SideProject({ title, desc, skill, codelink, livelink }) {
 export default SideProject;
 
 const SideProjectContainer = styled.div`
+  position: relative;
+
   :hover {
     transition: transform 0.2s ease-in-out !important;
     transform: scale(1.1) !important;
@@ -60,9 +62,7 @@ const SideProjectContainer = styled.div`
     padding: 20px;
   }
   @media only screen and (min-width: 1008px) {
-    margin-right: 30px;
-    max-width: 300px;
-    margin-bottom: 30px;
+    max-width: 260px;
     background-color: #1e2a3a;
     padding: 20px 30px;
   }
@@ -90,10 +90,12 @@ const Body = styled.div`
 `;
 const Footer = styled.div`
   ul {
+    position: absolute;
+    bottom: 10px;
     display: flex;
     list-style: none;
     li {
-      padding-right: 20px;
+      padding-right: 10px;
     }
   }
 `;

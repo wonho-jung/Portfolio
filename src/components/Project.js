@@ -6,7 +6,7 @@ import cov19 from "../assets/cov19.PNG";
 
 import netfilx from "../assets/netfilx.PNG";
 
-import samcha from "../assets/samcha.PNG";
+import travel from "../assets/travel1.JPG";
 import wontwitter from "../assets/wontwitter.PNG";
 
 import CodeIcon from "@material-ui/icons/Code";
@@ -32,14 +32,15 @@ function Project() {
 
         <ContentIntro>
           <h3>Featured Project</h3>
-          <h2>wontify</h2>
+          <h2>Music player</h2>
 
           <div className="project-p">
             <p>
-              This application utilizes the Spotify Web-API. view your
-              playlist,recently played,New Releases,Top playList and more,Search
-              singer or sing, audio play with preview of
-              track(stop,prev,next,volume control).
+              This app was made using spotify web-API. The pages consist of
+              home, playlist, search, and libary. There is an audio system that
+              can be controlled by the user to play music. Some of the features
+              of the audio system include playing a song, changing a song
+              (previous and next), and a volume control.
             </p>
           </div>
           <div className="project-pbox"></div>
@@ -74,22 +75,21 @@ function Project() {
 
         <ContentIntro className="reverse-intro">
           <h3>Featured Project</h3>
-          <h2>Cov-19-tracker</h2>
+          <h2>Covid-19 tracker</h2>
           <div className="project-p">
             <p>
-              Tracking cov-19 case in the world. you can see number of cov-19
-              case, Recovered, Deaths and every country. Use disease.sh Api,
-              leaflet (map),chart.js.
+              Tracking Covid-19 cases in the world. You can see the number of
+              Covid-19 cases, recovered, deaths in every country.
             </p>
           </div>
           <div className="project-pbox"></div>
 
           <ul>
             <li>React</li>
-            <li>netlify</li>
-            <li>chart.js</li>
-            <li>leaflet</li>
-            <li>disease.sh API</li>
+            <li>Netlify</li>
+            <li>Chart.js</li>
+            <li>Leaflet</li>
+            <li>Disease.sh API</li>
           </ul>
           <Icons>
             <a
@@ -114,12 +114,14 @@ function Project() {
 
         <ContentIntro>
           <h3>Featured Project</h3>
-          <h2>womazon</h2>
+          <h2>E-commerce store</h2>
           <div className="project-p">
             <p>
-              e-commerce store(amazon) with loginPage,
-              products,checkout,payment. Use reducer,Axios stripe.com APi,
-              firebase,hosting on netlify.
+              This is an E-commerce store (amazon) website. The pages consist of
+              home, login, check out, and order history. A user or non-user
+              (guest) can buy products on the website. Solely users are able to
+              see the order history through the firebase DB. The payment
+              function was designed with stripe API.
             </p>
           </div>
           <div className="project-pbox"></div>
@@ -154,12 +156,14 @@ function Project() {
 
         <ContentIntro className="reverse-intro">
           <h3>Featured Project</h3>
-          <h2>Wonflix</h2>
+          <h2>Movie player</h2>
           <div className="project-p">
             <p>
-              Learning React, Redux and ES6 by buliding a Movie Discovery
-              App.Movie page, Tv Page, Search Page,Login Page, Payment Page. Use
-              Movie DB API, Firebase as DB and payment(stripe).
+              This is a movie-streaming app. The pages consist of home, login,
+              TV, search, detail, and payment. This app offers subscription-base
+              services. On the platform, users can search a movie or a TV show
+              that the user want to watch. On the user interface, users are
+              provided with a short summary of the movie and a trailer.
             </p>
           </div>
           <div className="project-pbox"></div>
@@ -191,12 +195,13 @@ function Project() {
 
         <ContentIntro>
           <h3>Featured Project</h3>
-          <h2>wonitter</h2>
+          <h2>Social media app</h2>
           <div className="project-p">
             <p>
-              A simple app built to social media app that you can login with
-              github,google, post with picture, remove, update and change
-              profile.
+              This is a social media app. The pages consist of home, login, and
+              profile. After logging in, users update a post with a picture, a
+              status or simply delete a post. On the profile page, users can
+              change the personal settings, such as the display name.
             </p>
           </div>
           <div className="project-pbox"></div>
@@ -221,42 +226,33 @@ function Project() {
 
       <ProjectContent className="reverse" data-aos="fade-right">
         <ContentImg>
-          <a
-            href="https://nervous-volhard-04221d.netlify.app/"
-            target="_blanks"
-          >
-            <img src={samcha} alt="" />
+          <a href="https://serene-jepsen-9a5fc7.netlify.app" target="_blanks">
+            <img src={travel} alt="" />
           </a>
         </ContentImg>
 
         <ContentIntro className="reverse-intro">
           <h3>Featured Project</h3>
-          <h2>Samcha</h2>
+          <h2>Travel app</h2>
           <div>
             <div className="project-p">
               <p>
-                Website build for korean restaurant SAMCHA in montreal. Learn
-                more about CSS skill(grid,design).
+                This is a travel app. It's a single page website and base on
+                responsive web design.
               </p>
             </div>
             <div className="project-pbox"></div>
           </div>
           <ul>
             <li>React</li>
-            <li>leaflet</li>
+            <li>Gatsby</li>
             <li>Styled-components</li>
           </ul>
           <Icons>
-            <a
-              href="https://github.com/wonho-jung/samcha-ver2/tree/master/src"
-              target="_blanks"
-            >
+            <a href="https://github.com/wonho-jung/travel" target="_blanks">
               <CodeIcon />
             </a>
-            <a
-              href="https://nervous-volhard-04221d.netlify.app/"
-              target="_blanks"
-            >
+            <a href="https://serene-jepsen-9a5fc7.netlify.app" target="_blanks">
               <WebAssetIcon />
             </a>
           </Icons>
@@ -308,7 +304,9 @@ const ProjectContainer = styled.div`
           align-items: flex-start;
           justify-content: center;
           .project-p {
-            padding: 20px;
+            padding: 10px;
+            line-height: 1.5;
+            font-size: 14px;
             background-color: #1e2a3a;
             height: 100px;
             right: 30%;
@@ -321,7 +319,7 @@ const ProjectContainer = styled.div`
             }
           }
           .project-pbox {
-            height: 100px;
+            height: 120px;
           }
           ul {
             justify-content: center;
@@ -409,8 +407,9 @@ const ContentIntro = styled.div`
     justify-content: center;
     width: 383px;
     .project-p {
-      padding: 20px;
-
+      padding: 10px;
+      line-height: 1.5;
+      font-size: 14px;
       background-color: #1e2a3a;
       height: 100px;
       left: 30%;
@@ -425,7 +424,7 @@ const ContentIntro = styled.div`
     }
 
     .project-pbox {
-      height: 100px;
+      height: 120px;
     }
     ul {
       justify-content: center;
