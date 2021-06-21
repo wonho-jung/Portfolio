@@ -14,6 +14,7 @@ import WebAssetIcon from "@material-ui/icons/WebAsset";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import OtherProject from "./OtherProject";
+import ecommerce from "../assets/ecommerce.JPG";
 function Project() {
   AOS.init();
 
@@ -107,8 +108,8 @@ function Project() {
 
       <ProjectContent data-aos="fade-right">
         <ContentImg>
-          <a href="https://angry-lamarr-364c96.netlify.app/" target="_blanks">
-            <img src={amazon} alt="" />
+          <a href="https://e-commerce-75298.web.app/" target="_blanks">
+            <img src={ecommerce} alt="" />
           </a>
         </ContentImg>
 
@@ -117,8 +118,8 @@ function Project() {
           <h2>E-commerce store</h2>
           <div className="project-p">
             <p>
-              This is an E-commerce store (amazon) website. The pages consist of
-              home, login, check out, and order history. A user or non-user
+              This is an E-commerce store website. The pages consist of home,
+              login, products, check out and order history. A user or non-user
               (guest) can buy products on the website. Solely users are able to
               see the order history through the firebase DB. The payment
               function was designed with stripe API.
@@ -129,18 +130,15 @@ function Project() {
             <li>React</li>
             <li>Axios</li>
             <li>Firebase</li>
-            <li>Reducer</li>
-            <li>netlify</li>
+            <li>Redux</li>
+
             <li>stripe API</li>
           </ul>
           <Icons>
-            <a
-              href="https://github.com/wonho-jung/Amazone_v2/tree/master/src"
-              target="_blanks"
-            >
+            <a href="https://github.com/wonho-jung/e-commerce" target="_blanks">
               <CodeIcon />
             </a>
-            <a href="https://angry-lamarr-364c96.netlify.app/" target="_blanks">
+            <a href="https://e-commerce-75298.web.app/" target="_blanks">
               <WebAssetIcon />
             </a>
           </Icons>
@@ -366,7 +364,7 @@ const ContentIntro = styled.div`
   }
 
   @media only screen and (max-width: 640px) {
-    height: 300px;
+    height: 350px;
     padding: 20px 10px;
     background-color: #111821;
     position: absolute;
@@ -439,7 +437,7 @@ const ContentImg = styled.div`
   @media only screen and (max-width: 640px) {
     img {
       width: 100%;
-      height: 300px;
+      height: 350px;
     }
   }
 
