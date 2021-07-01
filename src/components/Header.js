@@ -4,13 +4,26 @@ import styled from "styled-components";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 import resume from "../assets/WonhoJung_CV_Final.pdf";
+import { useEffect } from "react";
 function Header() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const [nav, setNav] = useState("transparent");
 
+  const scroll = () => {
+    if (window.scrollY > 200) {
+      setNav("#1e2a3a");
+    } else {
+      setNav("transparent");
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", scroll);
+    return () => window.removeEventListener("scroll", scroll);
+  }, []);
   return (
-    <HeaderContainer>
+    <HeaderContainer style={{ backgroundColor: nav, transition: "0.5s" }}>
       <HeaderLeft>
         <svg
           className="logo"
@@ -143,11 +156,14 @@ function Header() {
 export default Header;
 
 const HeaderContainer = styled.div`
+  z-index: 100;
   padding: 0 30px;
-  height: 100px;
+  width: 100%;
+  height: 80px;
   display: flex;
   align-items: center;
   @media screen and (min-width: 961px) {
+    position: fixed;
     justify-content: space-between;
   }
 `;
@@ -171,7 +187,6 @@ const HeaderRight = styled.div`
   @media screen and (max-width: 960px) {
     .menu-icon {
       position: fixed;
-
       display: block !important;
       cursor: pointer;
       right: 30px;

@@ -12,7 +12,7 @@ function SideProject({ title, desc, skill, codelink, livelink }) {
     <SideProjectContainer data-aos="fade-right">
       <Header>
         <HeaderLeft>
-          <FolderOpenIcon fontSize="large" />
+          <FolderOpenIcon fontSize="small" />
         </HeaderLeft>
         <HeaderRight>
           <a href={codelink} target="_blank">
@@ -43,6 +43,10 @@ function SideProject({ title, desc, skill, codelink, livelink }) {
 export default SideProject;
 
 const SideProjectContainer = styled.div`
+  h2 {
+    margin: 0 !important;
+    margin-bottom: 1.5rem;
+  }
   position: relative;
 
   :hover {

@@ -29,42 +29,42 @@ function OtherProject() {
           title="Redux-todo"
           desc="Using Redux, one can exchange the data between unconnected components and form a to do list."
           skill={["React", "Redux"]}
-          codelink="https://github.com/wonho-jung/Redux-todo/tree/master/src"
+          codelink="https://github.com/wonho-jung/Redux-todo"
           livelink="https://relaxed-yalow-1735d7.netlify.app/"
         />
         <SideProject
-          title="Linkin-clone"
+          title="Linkedin-clone"
           desc="A user can register on this website, login and leave message on the home page."
           skill={["React", "Redux", "Firebase"]}
-          codelink="https://github.com/wonho-jung/linkedin-clone/tree/master/src"
+          codelink="https://github.com/wonho-jung/linkedin-clone"
           livelink="https://hopeful-mestorf-42af11.netlify.app/"
         />
         <SideProject
           title="SnapChat"
           desc="This is a simple app that allows a user to send a message with a real time picture through react-webcam."
           skill={["React", "Redux", "Firebase"]}
-          codelink="https://github.com/wonho-jung/snapchat/tree/master/src"
+          codelink="https://github.com/wonho-jung/snapchat"
           livelink="https://snapchat-clone-81286.web.app/"
         />
         <SideProject
           title="Gmail-clone"
           desc="This app is modeled based on the Gmail page. Users can send and receive e-mails."
           skill={["React", "Redux", "Firebase"]}
-          codelink="https://github.com/wonho-jung/gmail-clone/tree/main/src"
+          codelink="https://github.com/wonho-jung/gmail-clone"
           livelink="https://clone-a1e9b.web.app/"
         />
         <SideProject
           title="google search"
           desc="This is a search engine. Similar to Google, users can find information on this app through google search API."
           skill={["React", "CustomHook", "Firebase"]}
-          codelink="https://github.com/wonho-jung/google-clone/tree/main/src"
+          codelink="https://github.com/wonho-jung/google-clone"
           livelink="https://optimistic-banach-e16c32.netlify.app/"
         />
         <SideProject
           title="Airbnb-clone"
           desc="This app is modeled based on Airbnb. It consists of home and search pages without actual functions for reserving a temporary stay. "
           skill={["React"]}
-          codelink="https://github.com/wonho-jung/airbnb-clone-master/tree/master/src"
+          codelink="https://github.com/wonho-jung/airbnb-clone-master"
           livelink="https://wonderful-swartz-858f40.netlify.app/"
         />
       </OtherProjectContent>
@@ -73,7 +73,7 @@ function OtherProject() {
           title="slackChat"
           desc="A user can login with a Google account. The user can create a channel, join a channel, and chat with other users on the platform."
           skill={["React", "Redux", "Firebase"]}
-          codelink="https://github.com/wonho-jung/slack-clone/tree/master/src"
+          codelink="https://github.com/wonho-jung/slack-clone"
           livelink="https://slack-clone-6f504.firebaseapp.com/"
         />
         <SideProject

@@ -15,7 +15,7 @@ function About() {
         <ContentLeft>
           <p>
             Hello! My name is Samuel (Wonho) Jung, and my passion lies within
-            the frond-end development. I was introduced to web-developement back
+            the frond-end development. I was introduced to web-development back
             in 2019 when I learned HTML5 & CSS3 in school, and my interest in
             front-end development never ceased since then.
           </p>
@@ -102,7 +102,9 @@ const AboutContent = styled.div`
   max-width: 900px;
   display: flex;
 `;
-const ContentLeft = styled.div``;
+const ContentLeft = styled.div`
+  line-height: 1.5rem;
+`;
 const ContentRight = styled.div`
   img {
     width: 250px;

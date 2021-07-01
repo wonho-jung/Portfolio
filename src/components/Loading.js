@@ -122,37 +122,37 @@ const LoadingContainer = styled.div`
     > path:nth-child(3) {
       stroke-dasharray: 433.7718200683594;
       stroke-dashoffset: 433.7718200683594;
-      animation: line-anim 2s ease forwards 0.3s;
+      animation: line-anim 2s ease forwards 0.01s;
     }
     > path:nth-child(4) {
       stroke-dasharray: 440.1047668457031;
       stroke-dashoffset: 440.1047668457031;
-      animation: line-anim 2s ease forwards 0.6s;
+      animation: line-anim 2s ease forwards 0.013s;
     }
     > path:nth-child(5) {
       stroke-dasharray: 58.1012077331543;
       stroke-dashoffset: 58.1012077331543;
-      animation: line-anim 2s ease forwards 0.9s;
+      animation: line-anim 2s ease forwards 0.015s;
     }
     > path:nth-child(6) {
       stroke-dasharray: 561.4005126953125;
       stroke-dashoffset: 561.4005126953125;
-      animation: line-anim 2s ease forwards 0.12s;
+      animation: line-anim 2s ease forwards 0.017s;
     }
     > path:nth-child(7) {
       stroke-dasharray: 575.481201171875;
       stroke-dashoffset: 575.481201171875;
-      animation: line-anim 2s ease forwards 0.15s;
+      animation: line-anim 2s ease forwards 0.019s;
     }
     > path:nth-child(8) {
       stroke-dasharray: 515.26416015625;
       stroke-dashoffset: 515.26416015625;
-      animation: line-anim 2s ease forwards 0.18s;
+      animation: line-anim 2s ease forwards 0.021s;
     }
     > path:nth-child(9) {
       stroke-dasharray: 370.0504150390625;
       stroke-dashoffset: 370.0504150390625;
-      animation: line-anim 2s ease forwards 0.21s;
+      animation: line-anim 2s ease forwards 0.023s;
     }
   }
   @keyframes line-anim {

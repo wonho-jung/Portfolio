@@ -54,10 +54,7 @@ function Project() {
             <li>Spotify Web API</li>
           </ul>
           <Icons>
-            <a
-              href="https://github.com/wonho-jung/wontify/tree/master/src"
-              target="_blank"
-            >
+            <a href="https://github.com/wonho-jung/wontify" target="_blank">
               <CodeIcon />
             </a>
             <a href="https://spotify-clone-c80b5.web.app/" target="_blank">
@@ -94,7 +91,7 @@ function Project() {
           </ul>
           <Icons>
             <a
-              href="https://github.com/wonho-jung/covid-19-tracker/tree/master/src"
+              href="https://github.com/wonho-jung/covid-19-tracker"
               target="_blank"
             >
               <CodeIcon />
@@ -132,7 +129,7 @@ function Project() {
             <li>Firebase</li>
             <li>Redux</li>
 
-            <li>stripe API</li>
+            <li>stripe</li>
           </ul>
           <Icons>
             <a href="https://github.com/wonho-jung/e-commerce" target="_blanks">
@@ -169,7 +166,6 @@ function Project() {
             <li>React</li>
             <li>Bootstrap</li>
             <li>Redux</li>
-            <li>Styled-components</li>
             <li>Stripe</li>
             <li>Firebase</li>
           </ul>
@@ -210,7 +206,7 @@ function Project() {
           </ul>
           <Icons>
             <a
-              href="https://github.com/wonho-jung/won-twitter/tree/master/src"
+              href="https://github.com/wonho-jung/won-twitter"
               target="_blanks"
             >
               <CodeIcon />
@@ -267,7 +263,9 @@ export default Project;
 const ProjectContainer = styled.div`
   margin-bottom: 200px;
   height: 100%;
-
+  p {
+    line-height: 1.4rem;
+  }
   h1 {
     span {
       color: #54b689;
@@ -285,7 +283,16 @@ const ProjectContainer = styled.div`
       top: -80px;
       left: 0;
     }
+    h3,
+    h2,
+    ul {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
     .reverse {
+      h3 {
+        margin-right: 100px;
+      }
       @media only screen and (min-width: 1008px) {
         max-width: 785px;
         display: flex;
@@ -461,9 +468,12 @@ const ContentImg = styled.div`
 `;
 
 const Icons = styled.div`
+  @media only screen and (min-width: 1008px) {
+    margin-left:10px;
+    }
+  }
   .MuiSvgIcon-root {
-    padding-right: 10px;
-    font-size: 40px;
+    margin-right:10px;
     color: #54b689;
     :hover {
       transition: transform 0.2s ease-in-out !important;

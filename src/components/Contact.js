@@ -13,17 +13,16 @@ function Contact() {
           Contact<span>()</span>{" "}
         </h1>
         <p>
-          For contact, You
-          can reach out to me via {" "}
+          For contact, You can reach out to me via{"  "}
           <a
             href="https://www.facebook.com/profile.php?id=100003002057392"
             target="_blank"
           >
-            facebook
+            facebook,
           </a>
           ,{" "}
           <a href="https://www.instagram.com/won.9/" target="_blank">
-            instargram
+            instagram
           </a>{" "}
           or send me an email to
           <span> won9.developer@gmail.com</span>.
@@ -64,6 +63,9 @@ const ContactContainer = styled.div`
   height: 100%;
   h1 > span {
     color: #54b689;
+  }
+  p{
+    line-height:1.5rem;
   }
   p > a,
       span {
