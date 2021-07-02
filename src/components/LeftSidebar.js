@@ -20,10 +20,7 @@ function LeftSidebar() {
         >
           <FacebookIcon />
         </a>
-        <a
-          href="https://www.linkedin.com/in/won-ho-jung-7a1330170/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/won9dev/" target="_blank">
           <LinkedInIcon />
         </a>
       </Icons>
