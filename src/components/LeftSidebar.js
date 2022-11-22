@@ -1,17 +1,23 @@
 import React from "react";
 import styled from "styled-components";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 function LeftSidebar() {
   return (
     <LeftSidebarContainer>
       <Icons>
-        <a href="https://github.com/wonho-jung" target="_blank">
+        <a
+          href="https://github.com/wonho-jung"
+          target="_blank"
+          rel="noreferrer"
+        >
           <GitHubIcon />
         </a>
-        <a href="https://www.linkedin.com/in/won9dev/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/won9dev/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <LinkedInIcon />
         </a>
       </Icons>

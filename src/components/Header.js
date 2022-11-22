@@ -115,6 +115,7 @@ function Header() {
             <a
               className="nav-link nav-link-ltr"
               href="/#about"
+              rel="noreferrer"
               onClick={closeMobileMenu}
             >
               About<span>()</span>
@@ -142,7 +143,7 @@ function Header() {
 
           <li>
             <Button className="resumeBTN" onClick={closeMobileMenu}>
-              <a href={resume} target="_blank">
+              <a href={resume} target="_blank" rel="noreferrer">
                 Resume
               </a>
             </Button>

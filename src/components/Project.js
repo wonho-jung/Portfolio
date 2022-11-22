@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import spotify from "../assets/spotify1.PNG";
-import amazon from "../assets/amazon.PNG";
 import cov19 from "../assets/cov19.PNG";
 
 import netfilx from "../assets/netfilx.PNG";
@@ -26,7 +25,11 @@ function Project() {
 
       <ProjectContent data-aos="fade-right">
         <ContentImg>
-          <a href="https://spotify-clone-c80b5.web.app/" target="_blank">
+          <a
+            href="https://spotify-clone-c80b5.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={spotify} alt="" />
           </a>
         </ContentImg>
@@ -54,10 +57,18 @@ function Project() {
             <li>Spotify Web API</li>
           </ul>
           <Icons>
-            <a href="https://github.com/wonho-jung/wontify" target="_blank">
+            <a
+              href="https://github.com/wonho-jung/wontify"
+              target="_blank"
+              rel="noreferrer"
+            >
               <CodeIcon />
             </a>
-            <a href="https://spotify-clone-c80b5.web.app/" target="_blank">
+            <a
+              href="https://spotify-clone-c80b5.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <WebAssetIcon />
             </a>
           </Icons>
@@ -66,7 +77,11 @@ function Project() {
 
       <ProjectContent className="reverse" data-aos="fade-right">
         <ContentImg>
-          <a href="https://epic-jennings-e181db.netlify.app/" target="_blank">
+          <a
+            href="https://epic-jennings-e181db.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={cov19} alt="" />
           </a>
         </ContentImg>
@@ -93,10 +108,15 @@ function Project() {
             <a
               href="https://github.com/wonho-jung/covid-19-tracker"
               target="_blank"
+              rel="noreferrer"
             >
               <CodeIcon />
             </a>
-            <a href="https://epic-jennings-e181db.netlify.app/" target="_blank">
+            <a
+              href="https://epic-jennings-e181db.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <WebAssetIcon />
             </a>
           </Icons>

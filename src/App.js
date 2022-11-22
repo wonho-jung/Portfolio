@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Header from "./components/Header";
 import RightSidebar from "./components/RightSidebar";
-import Home from "./components/Home";
 import LeftSidebar from "./components/LeftSidebar";
 import Body from "./components/Body";
 import React, { useState } from "react";

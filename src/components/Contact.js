@@ -20,21 +20,31 @@ function Contact() {
         <p> I'll get back to you as quickly as possible!</p>
       </div>
       <Icons>
-        <a href="https://github.com/wonho-jung" target="_blank">
+        <a
+          href="https://github.com/wonho-jung"
+          target="_blank"
+          rel="noreferrer"
+        >
           <GitHubIcon />
         </a>
-        <a href="https://www.instagram.com/won.9/" target="_blank">
+        <a
+          href="https://www.instagram.com/won.9/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <InstagramIcon />
         </a>
         <a
           href="https://www.facebook.com/profile.php?id=100003002057392"
           target="_blank"
+          rel="noreferrer"
         >
           <FacebookIcon />
         </a>
         <a
           href="https://www.linkedin.com/in/won-ho-jung-7a1330170/"
           target="_blank"
+          rel="noreferrer"
         >
           <LinkedInIcon />
         </a>
