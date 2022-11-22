@@ -11,15 +11,6 @@ function LeftSidebar() {
         <a href="https://github.com/wonho-jung" target="_blank">
           <GitHubIcon />
         </a>
-        <a href="https://www.instagram.com/won.9/" target="_blank">
-          <InstagramIcon />
-        </a>
-        <a
-          href="https://www.facebook.com/profile.php?id=100003002057392"
-          target="_blank"
-        >
-          <FacebookIcon />
-        </a>
         <a href="https://www.linkedin.com/in/won9dev/" target="_blank">
           <LinkedInIcon />
         </a>

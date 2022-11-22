@@ -2,15 +2,6 @@ import React, { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 
 function Loading() {
-  //   const logo = document.querySelectorAll("#logo path");
-  //   console.log(logo);
-  //   const animation = () => {
-  //     for (let i = 0; i < logo.length; i++) {
-  //       console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
-  //     }
-  //   };
-  //   animation();
-
   return (
     <LoadingContainer>
       <svg

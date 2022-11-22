@@ -14,18 +14,8 @@ function Contact() {
         </h1>
         <p>
           For contact, You can reach out to me via{"  "}
-          <a
-            href="https://www.facebook.com/profile.php?id=100003002057392"
-            target="_blank"
-          >
-            facebook,
-          </a>
-          ,{" "}
-          <a href="https://www.instagram.com/won.9/" target="_blank">
-            instagram
-          </a>{" "}
-          or send me an email to
-          <span> won9.developer@gmail.com</span>.
+          an email to
+          <span> wonho.jung92@gmail.com</span>
         </p>
         <p> I'll get back to you as quickly as possible!</p>
       </div>

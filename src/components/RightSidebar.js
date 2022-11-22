@@ -5,7 +5,7 @@ function RightSidebar() {
   return (
     <RightSidebarContainer>
       <div>
-        <p>won9.developer@gmail.com</p>
+        <p>wonho.jung92@gmail.com</p>
       </div>
     </RightSidebarContainer>
   );

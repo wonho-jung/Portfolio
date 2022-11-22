@@ -23,7 +23,7 @@ function About() {
           <ul className>
             <li>
               <ArrowRightIcon fontSize="small" />
-              JavaScript (ES6+)
+              JavaScript (ES6+) / TypeScript
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />
@@ -35,7 +35,15 @@ function About() {
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />
+              Unstated-next
+            </li>
+            <li>
+              <ArrowRightIcon fontSize="small" />
               Styled-components
+            </li>
+            <li>
+              <ArrowRightIcon fontSize="small" />
+              Material-UI
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />
