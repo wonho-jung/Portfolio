@@ -4,6 +4,7 @@ import styled from "styled-components";
 function Home() {
   return (
     <HomeContainer>
+      <h1>test</h1>
       <h1>Hello!</h1>
       <h1>I'm Samuel ,</h1>
       <h1>Front-end developer.</h1>
