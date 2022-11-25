@@ -107,7 +107,7 @@ const WorkedContainer = styled.div`
 const WorkedContent = styled.div`
   margin-left: 50px;
   a {
-    color: #54b689;
+    color: #54b689 !important;
   }
 `;
 const SmallP = styled.p`
