@@ -16,7 +16,7 @@ function Worked() {
       <WorkedContent>
         <h4>
           Front-end developer{" "}
-          <a target="_blank" href="https://decibelads.com/">
+          <a target="_blank" href="https://decibelads.com/" rel="noreferrer">
             @ Decibel
           </a>
         </h4>

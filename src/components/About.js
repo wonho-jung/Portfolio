@@ -4,7 +4,6 @@ import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import mypic from "../assets/mypic.jpg";
-import Worked from "./Worked";
 function About() {
   AOS.init();
   return (
