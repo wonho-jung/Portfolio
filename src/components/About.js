@@ -4,6 +4,7 @@ import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import mypic from "../assets/mypic.jpg";
+import Worked from "./Worked";
 function About() {
   AOS.init();
   return (
@@ -20,7 +21,7 @@ function About() {
             front-end development never ceased since then.
           </p>
           <p>Here are a few tools that I've been working with recently:</p>
-          <ul className>
+          <ul>
             <li>
               <ArrowRightIcon fontSize="small" />
               JavaScript (ES6+) / TypeScript
@@ -69,7 +70,7 @@ function About() {
 export default About;
 
 const AboutContainer = styled.div`
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   height: 100%;
   ul {
     padding-top: 10px;
@@ -77,6 +78,7 @@ const AboutContainer = styled.div`
     display: grid;
     grid-template-columns: auto auto;
     li {
+      line-height: 20px;
       font-size: 13px;
       display: flex;
       align-items: center;
@@ -93,8 +95,7 @@ const AboutContainer = styled.div`
   }
 
   @media only screen and (min-width: 1008px) {
-    margin-bottom: 300px;
-
+    margin-bottom: 150px;
     position: relative;
     display: flex;
     flex-direction: column;

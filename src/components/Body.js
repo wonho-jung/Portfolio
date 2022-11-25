@@ -4,6 +4,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import Project from "./Project";
+import Worked from "./Worked";
 
 // Linkcolor #54b689 or 00adb5
 // font color #393E46 ,eeeeee
@@ -13,6 +14,7 @@ function Body() {
       <Home />
 
       <About />
+      <Worked />
 
       <Project />
       <Contact />
