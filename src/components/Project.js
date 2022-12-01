@@ -20,7 +20,7 @@ function Project() {
   return (
     <ProjectContainer id="project">
       <h1 className="projectMain-h1" data-aos="fade-right">
-        Project<span>()</span>
+        Projects<span>()</span>
       </h1>
 
       <ProjectContent data-aos="fade-right">
@@ -40,7 +40,7 @@ function Project() {
 
           <div className="project-p">
             <p>
-              This app was made using spotify web-API. The pages consist of
+              This app was made using Spotify web-API. The pages consist of
               home, playlist, search, and libary. There is an audio system that
               can be controlled by the user to play music. Some of the features
               of the audio system include playing a song, changing a song
@@ -76,6 +76,43 @@ function Project() {
       </ProjectContent>
 
       <ProjectContent className="reverse" data-aos="fade-right">
+        <ContentImg>
+          <a href="https://wonflix-v2.web.app/" target="_blanks">
+            <img src={netfilx} alt="" />
+          </a>
+        </ContentImg>
+
+        <ContentIntro className="reverse-intro">
+          <h3>Featured Project</h3>
+          <h2>WonFlix, my own Netflix</h2>
+          <div className="project-p">
+            <p>
+              This is a movie-streaming app. The pages consist of home, login,
+              TV, search, detail, and payment. This app offers subscription-base
+              services. On the platform, users can search a movie or a TV show
+              that the user want to watch. On the user interface, users are
+              provided with a short summary of the movie and a trailer.
+            </p>
+          </div>
+          <div className="project-pbox"></div>
+          <ul>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>Redux</li>
+            <li>Stripe</li>
+            <li>Firebase</li>
+          </ul>
+          <Icons>
+            <a href="https://github.com/wonho-jung/wonflix-v2" target="_blanks">
+              <CodeIcon />
+            </a>
+            <a href="https://wonflix-v2.web.app/" target="_blanks">
+              <WebAssetIcon />
+            </a>
+          </Icons>
+        </ContentIntro>
+      </ProjectContent>
+      <ProjectContent data-aos="fade-right">
         <ContentImg>
           <a
             href="https://epic-jennings-e181db.netlify.app/"
@@ -123,14 +160,14 @@ function Project() {
         </ContentIntro>
       </ProjectContent>
 
-      <ProjectContent data-aos="fade-right">
+      <ProjectContent className="reverse" data-aos="fade-right">
         <ContentImg>
           <a href="https://e-commerce-75298.web.app/" target="_blanks">
             <img src={ecommerce} alt="" />
           </a>
         </ContentImg>
 
-        <ContentIntro>
+        <ContentIntro className="reverse-intro">
           <h3>Featured Project</h3>
           <h2>E-commerce store</h2>
           <div className="project-p">
@@ -139,7 +176,7 @@ function Project() {
               login, products, check out and order history. A user or non-user
               (guest) can buy products on the website. Solely users are able to
               see the order history through the firebase DB. The payment
-              function was designed with stripe API.
+              function was designed with Stripe API.
             </p>
           </div>
           <div className="project-pbox"></div>
@@ -149,7 +186,7 @@ function Project() {
             <li>Firebase</li>
             <li>Redux</li>
 
-            <li>stripe</li>
+            <li>Stripe</li>
           </ul>
           <Icons>
             <a href="https://github.com/wonho-jung/e-commerce" target="_blanks">
@@ -162,45 +199,7 @@ function Project() {
         </ContentIntro>
       </ProjectContent>
 
-      <ProjectContent className="reverse" data-aos="fade-right">
-        <ContentImg>
-          <a href="https://wonflix-v2.web.app/" target="_blanks">
-            <img src={netfilx} alt="" />
-          </a>
-        </ContentImg>
-
-        <ContentIntro className="reverse-intro">
-          <h3>Featured Project</h3>
-          <h2>Movie player</h2>
-          <div className="project-p">
-            <p>
-              This is a movie-streaming app. The pages consist of home, login,
-              TV, search, detail, and payment. This app offers subscription-base
-              services. On the platform, users can search a movie or a TV show
-              that the user want to watch. On the user interface, users are
-              provided with a short summary of the movie and a trailer.
-            </p>
-          </div>
-          <div className="project-pbox"></div>
-          <ul>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>Redux</li>
-            <li>Stripe</li>
-            <li>Firebase</li>
-          </ul>
-          <Icons>
-            <a href="https://github.com/wonho-jung/wonflix-v2" target="_blanks">
-              <CodeIcon />
-            </a>
-            <a href="https://wonflix-v2.web.app/" target="_blanks">
-              <WebAssetIcon />
-            </a>
-          </Icons>
-        </ContentIntro>
-      </ProjectContent>
-
-      <ProjectContent data-aos="fade-right">
+      {/* <ProjectContent data-aos="fade-right">
         <ContentImg>
           <a href="https://won-twitter.firebaseapp.com/#/" target="_blanks">
             <img src={wontwitter} alt="" />
@@ -236,9 +235,9 @@ function Project() {
             </a>
           </Icons>
         </ContentIntro>
-      </ProjectContent>
+      </ProjectContent> */}
 
-      <ProjectContent className="reverse" data-aos="fade-right">
+      {/* <ProjectContent className="reverse" data-aos="fade-right">
         <ContentImg>
           <a href="https://serene-jepsen-9a5fc7.netlify.app" target="_blanks">
             <img src={travel} alt="" />
@@ -271,7 +270,7 @@ function Project() {
             </a>
           </Icons>
         </ContentIntro>
-      </ProjectContent>
+      </ProjectContent> */}
 
       <OtherProject />
     </ProjectContainer>

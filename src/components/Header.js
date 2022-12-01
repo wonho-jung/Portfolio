@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import resume from "../assets/WonhoJung_CV_Final.pdf";
+import resume from "../assets/samuelCV.pdf";
 import { useEffect } from "react";
 function Header() {
   const [click, setClick] = useState(false);
@@ -127,7 +127,7 @@ function Header() {
               href="/#project"
               onClick={closeMobileMenu}
             >
-              Project<span>()</span>
+              Projects<span>()</span>
             </a>
           </li>
 

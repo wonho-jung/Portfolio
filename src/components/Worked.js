@@ -31,7 +31,7 @@ function Worked() {
             <li>
               <ArrowRightIcon fontSize={"15"} />
               Collaborated with the Marketing Manager to re-design the landing
-              page for Decibel which lead to more users coming
+              page for Decibel which lead to more user sign ups
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
@@ -42,8 +42,8 @@ function Worked() {
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Created a library of reusable components to be used throughout the
-              websites
+              Created a library of reusable React components to be used
+              throughout the websites
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />

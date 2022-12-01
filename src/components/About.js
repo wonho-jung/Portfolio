@@ -14,9 +14,9 @@ function About() {
       <AboutContent>
         <ContentLeft>
           <p>
-            Hello! My name is Samuel (Wonho) Jung, and my passion lies within
-            the frond-end development. I was introduced to web-development back
-            in 2019 when I learned HTML5 & CSS3 in school, and my interest in
+            Hello! My name is Samuel Jung, and my passion lies within the
+            front-end development. I was introduced to web-development back in
+            2019 when I learned HTML5 & CSS3 in school, and my interest in
             front-end development never ceased since then.
           </p>
           <p>Here are a few tools that I've been working with recently:</p>

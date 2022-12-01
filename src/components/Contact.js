@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import FacebookIcon from "@material-ui/icons/Facebook";
+
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 function Contact() {
@@ -15,7 +14,7 @@ function Contact() {
         <p>
           For contact, You can reach out to me via{"  "}
           an email to
-          <span> wonho.jung92@gmail.com</span>
+          <a href="mailto:wonho.jung92@gmail.com"> wonho.jung92@gmail.com</a>
         </p>
         <p> I'll get back to you as quickly as possible!</p>
       </div>
@@ -27,20 +26,7 @@ function Contact() {
         >
           <GitHubIcon />
         </a>
-        <a
-          href="https://www.instagram.com/won.9/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <InstagramIcon />
-        </a>
-        <a
-          href="https://www.facebook.com/profile.php?id=100003002057392"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FacebookIcon />
-        </a>
+
         <a
           href="https://www.linkedin.com/in/won-ho-jung-7a1330170/"
           target="_blank"
