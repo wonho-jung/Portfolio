@@ -17,7 +17,7 @@ function Worked() {
         <h4>
           Front-end developer{" "}
           <a target="_blank" href="https://decibelads.com/" rel="noreferrer">
-            @ Decibel
+            @ Decibel Ads
           </a>
         </h4>
         <SmallP>Sep 2021 - Present</SmallP>

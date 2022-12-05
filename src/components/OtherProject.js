@@ -1,5 +1,5 @@
-import { Button } from "@material-ui/core";
-import React, { useState } from "react";
+// import { Button } from "@material-ui/core";
+import React from "react";
 import styled from "styled-components";
 import SideProject from "./SideProject";
 import AOS from "aos";
@@ -7,18 +7,18 @@ import "aos/dist/aos.css";
 function OtherProject() {
   AOS.init();
 
-  const [btnState, setBtnState] = useState("More");
-  const [blockDiv, setBlockDiv] = useState("none");
+  // const [btnState, setBtnState] = useState("More");
+  // const [blockDiv, setBlockDiv] = useState("none");
 
-  const handleBtn = () => {
-    if (btnState === "More") {
-      setBtnState("Less");
-      setBlockDiv("grid");
-    } else {
-      setBtnState("More");
-      setBlockDiv("none");
-    }
-  };
+  // const handleBtn = () => {
+  //   if (btnState === "More") {
+  //     setBtnState("Less");
+  //     setBlockDiv("grid");
+  //   } else {
+  //     setBtnState("More");
+  //     setBlockDiv("none");
+  //   }
+  // };
   return (
     <OtherProjectContanier>
       <h1 data-aos="fade-right">
@@ -67,8 +67,6 @@ function OtherProject() {
           codelink="https://github.com/wonho-jung/airbnb-clone-master"
           livelink="https://wonderful-swartz-858f40.netlify.app/"
         />
-      </OtherProjectContent>
-      <MoreProject style={{ display: blockDiv }}>
         <SideProject
           title="slackChat"
           desc="A user can login with a Google account. The user can create a channel, join a channel, and chat with other users on the platform."
@@ -91,8 +89,7 @@ function OtherProject() {
           codelink="https://github.com/wonho-jung/Flyo-landing"
           livelink="https://wonho-jung.github.io/Flyo-landing/"
         />
-      </MoreProject>
-      <Button onClick={handleBtn}>{btnState}</Button>
+      </OtherProjectContent>
     </OtherProjectContanier>
   );
 }
@@ -147,31 +144,31 @@ const OtherProjectContent = styled.div`
     grid-gap: 20px;
   }
 `;
-const MoreProject = styled.div`
-  @media only screen and (max-width: 640px) {
-    display: grid;
-    justify-content: center;
-    grid-gap: 20px;
-  }
-  @media (min-width: 641px) and (max-width: 1007px) {
-    display: grid;
+// const MoreProject = styled.div`
+//   @media only screen and (max-width: 640px) {
+//     display: grid;
+//     justify-content: center;
+//     grid-gap: 20px;
+//   }
+//   @media (min-width: 641px) and (max-width: 1007px) {
+//     display: grid;
 
-    grid-template-columns: 1fr 1fr;
-    padding-top: 20px;
+//     grid-template-columns: 1fr 1fr;
+//     padding-top: 20px;
 
-    grid-gap: 20px;
-  }
-  @media (min-width: 1008px) and (max-width: 1300px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 20px;
+//     grid-gap: 20px;
+//   }
+//   @media (min-width: 1008px) and (max-width: 1300px) {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     padding-top: 20px;
 
-    grid-gap: 20px;
-  }
-  @media only screen and (min-width: 1301px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 20px;
-    grid-gap: 20px;
-  }
-`;
+//     grid-gap: 20px;
+//   }
+//   @media only screen and (min-width: 1301px) {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     padding-top: 20px;
+//     grid-gap: 20px;
+//   }
+// `;

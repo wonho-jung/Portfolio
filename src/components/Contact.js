@@ -14,7 +14,7 @@ function Contact() {
         <p>
           For contact, You can reach out to me via{"  "}
           an email to
-          <a href="mailto:wonho.jung92@gmail.com"> wonho.jung92@gmail.com</a>
+          <a href="mailto:samjung.dev@gmail.com"> samjung.dev@gmail.com</a>
         </p>
         <p> I'll get back to you as quickly as possible!</p>
       </div>

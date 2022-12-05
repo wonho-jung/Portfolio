@@ -5,8 +5,8 @@ function RightSidebar() {
   return (
     <RightSidebarContainer>
       <div>
-        <a href="mailto:wonho.jung92@gmail.com">
-          <p>wonho.jung92@gmail.com</p>
+        <a href="mailto:samjung.dev@gmail.com">
+          <p>samjung.dev@gmail.com</p>
         </a>
       </div>
     </RightSidebarContainer>

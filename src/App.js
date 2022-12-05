@@ -13,12 +13,12 @@ function App() {
     setLoading(false);
   };
 
-  setTimeout(time, 1000);
+  setTimeout(time, 1400);
 
   return (
     <>
       <Helmet>
-        <title>Won.9 Dev</title>
+        <title>Sam Dev</title>
       </Helmet>
       {loading ? (
         <Loading />

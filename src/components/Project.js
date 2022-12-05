@@ -5,9 +5,6 @@ import cov19 from "../assets/cov19.PNG";
 
 import netfilx from "../assets/netfilx.PNG";
 
-import travel from "../assets/travel1.JPG";
-import wontwitter from "../assets/wontwitter.PNG";
-
 import CodeIcon from "@material-ui/icons/Code";
 import WebAssetIcon from "@material-ui/icons/WebAsset";
 import AOS from "aos";
