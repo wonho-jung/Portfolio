@@ -23,7 +23,7 @@ function Project() {
       <ProjectContent data-aos="fade-right">
         <ContentImg>
           <a
-            href="https://spotify-clone-c80b5.web.app/"
+            href="https://subtle-jalebi-49df22.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,7 +62,7 @@ function Project() {
               <CodeIcon />
             </a>
             <a
-              href="https://spotify-clone-c80b5.web.app/"
+              href="https://subtle-jalebi-49df22.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
