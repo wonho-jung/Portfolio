@@ -14,7 +14,7 @@ function LeftSidebar() {
           <GitHubIcon />
         </a>
         <a
-          href="https://www.linkedin.com/in/won9dev/"
+          href="https://www.linkedin.com/in/samjung108/"
           target="_blank"
           rel="noreferrer"
         >
