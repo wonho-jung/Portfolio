@@ -26,7 +26,7 @@ function Worked() {
             <li>
               <ArrowRightIcon fontSize={"15"} />
               Translate Decibel Ads, entire client-side V2 and V3 UI/UX mock-ups
-              into code to be implemented into websites
+              in Figma into code to be implemented into websites
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
@@ -52,7 +52,7 @@ function Worked() {
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Agile project management tool: Jira, Pivotal tracker, linear
+              Agile project management tools: Jira, Pivotal tracker, linear
             </li>
           </ul>
         </div>

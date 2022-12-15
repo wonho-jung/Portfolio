@@ -12,7 +12,7 @@ function Contact() {
           Contact<span>()</span>{" "}
         </h1>
         <p>
-          For contact, You can reach out to me via{"  "}
+          You can reach out to me via{"  "}
           an email to
           <a href="mailto:samjung.dev@gmail.com"> samjung.dev@gmail.com</a>
         </p>
