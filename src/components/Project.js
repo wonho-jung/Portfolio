@@ -23,7 +23,7 @@ function Project() {
       <ProjectContent data-aos="fade-right">
         <ContentImg>
           <a
-            href="https://spotify-9913a.web.app/"
+            href="https://master--glistening-froyo-372771.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,7 +62,7 @@ function Project() {
               <CodeIcon />
             </a>
             <a
-              href="https://spotify-9913a.web.app/"
+              href="https://master--glistening-froyo-372771.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
