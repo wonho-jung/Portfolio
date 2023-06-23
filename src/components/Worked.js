@@ -4,6 +4,7 @@ import AOS from "aos";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
 import "aos/dist/aos.css";
+import WorkImageSlides from "./WorkImageSlides";
 
 function Worked() {
   AOS.init();
@@ -25,38 +26,43 @@ function Worked() {
           <ul>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Translate Decibel Ads, entire client-side V2 and V3 UI/UX mock-ups
-              in Figma into code to be implemented into websites
+              Hand-code embedded an example ads audio library & an ads
+              forecasting tool into the website's that enabled 300+ users to
+              predict the potential success of their ads.
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Collaborated with the Marketing Manager to re-design the landing
-              page for Decibel which lead to more user sign ups
+              Worked hand-in-hand with the CTO to perform - routine updates &
+              other website maintenance tasks.
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Participated in design sessions with the C-Suite Executives,
-              business analysts, and other team members to analyze business
-              requirements and outline the proposed IT solution for shortening
-              the user onboarding flow by 50%
+              Based on HotJar analytics, collaborated with the Marketing
+              Department's Director to address user drop in the app, & devised a
+              plan to reduce the onboarding process by 60%.
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Created a library of reusable React components to be used
-              throughout the websites
+              Engineered an updated userflow with input actions that gave the
+              user, targeting control in - geo search, dayparting, reusable
+              design components, distribution options & more.
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Monitoring for bugs in the code, and identifying the sources of
-              the problems
+              Directed the V3 launch of the website, 5 days before the
+              anticipated deadline, which was the deciding factor in signing 2
+              major clients to the organization.
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Agile project management tools: Jira, Pivotal tracker, linear
+              Converted client's Google Sheet Data (with 10,000+ input items)
+              into JSON and assisted in coordinating advanced audience target
+              options.
             </li>
           </ul>
         </div>
       </WorkedContent>
+      <WorkImageSlides />
     </WorkedContainer>
   );
 }

@@ -15,9 +15,12 @@ function About() {
         <ContentLeft>
           <p>
             Hello! My name is Samuel Jung, and my passion lies with front-end
-            development. I was introduced to web-development back in 2019 when I
-            learned HTML5 & CSS3 in school, and my interest in front-end
-            development never ceased since then.
+            development. They nicknamed me "Sonic" because of how fast I was
+            able to deliver projects ahead of schedule. I'm a gold medal effort,
+            Frontend Developer with over 2 years experience turning feedback
+            into custom solutions, proactively identifying bottlenecks, &
+            spearheading mobile applications that are streamlined for
+            performance, speed, & efficiency.
           </p>
           <p>Here are a few tools that I've been working with recently:</p>
           <ul>
@@ -51,7 +54,11 @@ function About() {
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />
-              HTML & CSS
+              HTML & CSS3
+            </li>
+            <li>
+              <ArrowRightIcon fontSize="small" />
+              Jira / Linear / Pivotal Tracker
             </li>
           </ul>
         </ContentLeft>
