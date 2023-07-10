@@ -49,8 +49,9 @@ function Project() {
           <ul>
             <li>React</li>
             <li>Redux</li>
-            <li>Firebase</li>
-            <li>Styled-components</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Styled-components / MUI</li>
             <li>Spotify Web API</li>
           </ul>
           <Icons>

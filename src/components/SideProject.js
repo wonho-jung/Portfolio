@@ -6,7 +6,6 @@ import WebAssetIcon from "@material-ui/icons/WebAsset";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function SideProject({ title, desc, skill, codelink, livelink }) {
-  console.log(skill);
   AOS.init();
   return (
     <SideProjectContainer data-aos="fade-right">
