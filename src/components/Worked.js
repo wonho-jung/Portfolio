@@ -62,7 +62,9 @@ function Worked() {
           </ul>
         </div>
       </WorkedContent>
-      <WorkImageSlides />
+      <WorkImageSlidesContainer>
+        <WorkImageSlides />
+      </WorkImageSlidesContainer>
     </WorkedContainer>
   );
 }
@@ -119,4 +121,10 @@ const WorkedContent = styled.div`
 const SmallP = styled.p`
   margin-top: 10px;
   font-size: 12px !important;
+`;
+
+const WorkImageSlidesContainer = styled.div`
+  @media only screen and (max-width: 1450px) {
+    display: none;
+  }
 `;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import mypic from "../assets/mypic.jpg";
+import wonhoJungPic from "../assets/wonhoJungPic.jpg";
 function About() {
   AOS.init();
   return (
@@ -63,11 +63,11 @@ function About() {
           </ul>
         </ContentLeft>
         <ContentRight>
-          <img src={mypic} alt="" />
+          <img src={wonhoJungPic} alt="" />
         </ContentRight>
       </AboutContent>
       <AboutImgMoboile>
-        <img src={mypic} alt="" />
+        <img src={wonhoJungPic} alt="" />
       </AboutImgMoboile>
     </AboutContainer>
   );
