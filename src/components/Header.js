@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import resume from "../assets/sam_cv_0623.pdf";
+import resume from "../assets/sam_CV_0711.pdf";
 import { useEffect } from "react";
 import { ReactComponent as Logo } from "../assets/newlogo.svg";
 
