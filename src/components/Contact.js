@@ -8,15 +8,15 @@ function Contact() {
   return (
     <ContactContainer id="contact">
       <div>
-        <h1 style={{ justifyContent: "center", display: "flex" }}>
+        <h2>
           Contact<span>()</span>{" "}
-        </h1>
+        </h2>
         <p>
           You can reach out to me via{"  "}
           an email to
           <a href="mailto:samjung.dev@gmail.com"> samjung.dev@gmail.com</a>
         </p>
-        <p> I'll get back to you as quickly as possible!</p>
+        <p> I&apos;ll get back to you as quickly as possible!</p>
       </div>
       <Icons>
         <a
@@ -47,17 +47,22 @@ const ContactContainer = styled.div`
   align-items: center;
   margin-bottom: 200px;
   height: 100%;
-  h1 > span {
+
+  h2{
+    display: flex;  
+    justify-content: center;
+  }
+  h2 > span {
     color: #54b689;
   }
   p{
+    text-align: center;
     line-height:1.5rem;
   }
-  p > a,
-      span {
+  p > a {
         cursor: pointer;
         color: #54b689;
-        opacity: 0.7;
+        opacity:0.7;
         :hover {
           opacity: 1;
         }

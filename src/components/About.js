@@ -8,21 +8,21 @@ function About() {
   AOS.init();
   return (
     <AboutContainer data-aos="fade-right" id="about">
-      <h1>
+      <h2>
         About Me <span>()</span>
-      </h1>
+      </h2>
       <AboutContent>
         <ContentLeft>
           <p>
             Hello! My name is Samuel Jung, and my passion lies with front-end
-            development. They nicknamed me "Sonic" because of how fast I was
-            able to deliver projects ahead of schedule. I'm a gold medal effort,
-            Frontend Developer with over 2 years experience turning feedback
-            into custom solutions, proactively identifying bottlenecks, &
-            spearheading mobile applications that are streamlined for
-            performance, speed, & efficiency.
+            development. They nicknamed me &quot;Sonic&quot; because of how fast
+            I was able to deliver projects ahead of schedule. I&apos;m a gold
+            medal effort, Frontend Developer with over 2 years experience
+            turning feedback into custom solutions, proactively identifying
+            bottlenecks, & spearheading mobile applications that are streamlined
+            for performance, speed, & efficiency.
           </p>
-          <p>Here are a few tools that I've been working with recently:</p>
+          <p>Here are a few tools that I&apos;ve been working with recently:</p>
           <ul>
             <li>
               <ArrowRightIcon fontSize="small" />
@@ -54,7 +54,7 @@ function About() {
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />
-              HTML & CSS3
+              HTML5 & CSS3
             </li>
             <li>
               <ArrowRightIcon fontSize="small" />
@@ -63,11 +63,11 @@ function About() {
           </ul>
         </ContentLeft>
         <ContentRight>
-          <img src={wonhoJungPic} alt="" />
+          <img src={wonhoJungPic} alt="wonho_profile" />
         </ContentRight>
       </AboutContent>
       <AboutImgMoboile>
-        <img src={wonhoJungPic} alt="" />
+        <img src={wonhoJungPic} alt="wonho_profile" />
       </AboutImgMoboile>
     </AboutContainer>
   );
@@ -94,7 +94,7 @@ const AboutContainer = styled.div`
       }
     }
   }
-  h1 {
+  h2 {
     span {
       color: #54b689;
     }
@@ -106,7 +106,7 @@ const AboutContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1 {
+    h2 {
       position: absolute;
       top: -70px;
       left: 0;

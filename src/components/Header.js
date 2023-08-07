@@ -1,11 +1,10 @@
-import { Button } from "@material-ui/core";
 import React, { useState } from "react";
 import styled from "styled-components";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import resume from "../assets/sam_CV_0711.pdf";
 import { useEffect } from "react";
 import { ReactComponent as Logo } from "../assets/newlogo.svg";
+import { Button } from "@mui/material";
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -30,18 +29,18 @@ function Header() {
         <Logo style={{ width: "180px" }} />
       </HeaderLeft>
       <HeaderRight>
-        <div className="menu-icon" onClick={handleClick}>
+        <Button className="menu-icon" onClick={handleClick}>
           {click ? (
             <CloseIcon fontSize="large" />
           ) : (
             <MenuIcon fontSize="large" />
           )}
-        </div>
+        </Button>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
             <a
               className="nav-link nav-link-ltr"
-              href="/#about"
+              href="#about"
               rel="noreferrer"
               onClick={closeMobileMenu}
             >
@@ -51,7 +50,7 @@ function Header() {
           <li>
             <a
               className="nav-link nav-link-ltr"
-              href="/#project"
+              href="#project"
               onClick={closeMobileMenu}
             >
               Projects<span>()</span>
@@ -61,19 +60,11 @@ function Header() {
           <li>
             <a
               className="nav-link nav-link-ltr"
-              href="/#contact"
+              href="#contact"
               onClick={closeMobileMenu}
             >
               Contact<span>()</span>
             </a>
-          </li>
-
-          <li>
-            <Button className="resumeBTN" onClick={closeMobileMenu}>
-              <a href={resume} target="_blank" rel="noreferrer">
-                Resume
-              </a>
-            </Button>
           </li>
         </ul>
       </HeaderRight>

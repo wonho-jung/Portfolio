@@ -30,15 +30,6 @@ const WorkImageSlides = () => {
           </div>
         </div>
       ))}
-      {/* <div className="each-slide-effect">
-        <div>
-          <img
-            style={{ width: "100%", height: "100%" }}
-            src={decibelLandingPage}
-            alt=""
-          />
-        </div>
-      </div> */}
     </Slide>
   );
 };

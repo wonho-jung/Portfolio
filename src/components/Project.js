@@ -9,16 +9,15 @@ import CodeIcon from "@material-ui/icons/Code";
 import WebAssetIcon from "@material-ui/icons/WebAsset";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import OtherProject from "./OtherProject";
 import ecommerce from "../assets/ecommerce.JPG";
 function Project() {
   AOS.init();
 
   return (
     <ProjectContainer id="project">
-      <h1 className="projectMain-h1" data-aos="fade-right">
+      <h2 className="projectMain-h2" data-aos="fade-right">
         Projects<span>()</span>
-      </h1>
+      </h2>
 
       <ProjectContent data-aos="fade-right">
         <ContentImg>
@@ -32,13 +31,13 @@ function Project() {
         </ContentImg>
 
         <ContentIntro>
-          <h3>Featured Project</h3>
-          <h2>Music player</h2>
+          <h4>Featured Project(recent project)</h4>
+          <h3>Music player</h3>
 
           <div className="project-p">
             <p>
               This app was made using Spotify web-API. The pages consist of
-              home, playlist, search, and libary. There is an audio system that
+              home, playlist, search, and library. There is an audio system that
               can be controlled by the user to play music. Some of the features
               of the audio system include playing a song, changing a song
               (previous and next), and a volume control.
@@ -47,12 +46,12 @@ function Project() {
           <div className="project-pbox"></div>
 
           <ul>
+            <li>TypeScript</li>
             <li>React</li>
-            <li>Redux</li>
-            <li>Node.js</li>
+            <li>Redux-toolkit/Redux-thunk</li>
+            <li>Node.js/Express</li>
             <li>MongoDB</li>
             <li>Styled-components / MUI</li>
-            <li>Spotify Web API</li>
           </ul>
           <Icons>
             <a
@@ -81,8 +80,8 @@ function Project() {
         </ContentImg>
 
         <ContentIntro className="reverse-intro">
-          <h3>Featured Project</h3>
-          <h2>WonFlix, my own Netflix</h2>
+          <h4>Featured Project</h4>
+          <h3>WonFlix, my own Netflix</h3>
           <div className="project-p">
             <p>
               This is a movie-streaming app. The pages consist of home, login,
@@ -122,8 +121,8 @@ function Project() {
         </ContentImg>
 
         <ContentIntro className="reverse-intro">
-          <h3>Featured Project</h3>
-          <h2>Covid-19 tracker</h2>
+          <h4>Featured Project</h4>
+          <h3>Covid-19 tracker</h3>
           <div className="project-p">
             <p>
               Tracking Covid-19 cases in the world. You can see the number of
@@ -166,8 +165,8 @@ function Project() {
         </ContentImg>
 
         <ContentIntro className="reverse-intro">
-          <h3>Featured Project</h3>
-          <h2>E-commerce store</h2>
+          <h4>Featured Project</h4>
+          <h3>E-commerce store</h3>
           <div className="project-p">
             <p>
               This is an E-commerce store website. The pages consist of home,
@@ -196,81 +195,7 @@ function Project() {
           </Icons>
         </ContentIntro>
       </ProjectContent>
-
-      {/* <ProjectContent data-aos="fade-right">
-        <ContentImg>
-          <a href="https://won-twitter.firebaseapp.com/#/" target="_blanks">
-            <img src={wontwitter} alt="" />
-          </a>
-        </ContentImg>
-
-        <ContentIntro>
-          <h3>Featured Project</h3>
-          <h2>Social media app</h2>
-          <div className="project-p">
-            <p>
-              This is a social media app. The pages consist of home, login, and
-              profile. After logging in, users update a post with a picture, a
-              status or simply delete a post. On the profile page, users can
-              change the personal settings, such as the display name.
-            </p>
-          </div>
-          <div className="project-pbox"></div>
-          <ul>
-            <li>React</li>
-            <li>uuid</li>
-            <li>Firebase</li>
-          </ul>
-          <Icons>
-            <a
-              href="https://github.com/wonho-jung/won-twitter"
-              target="_blanks"
-            >
-              <CodeIcon />
-            </a>
-            <a href="https://won-twitter.firebaseapp.com/#/" target="_blanks">
-              <WebAssetIcon />
-            </a>
-          </Icons>
-        </ContentIntro>
-      </ProjectContent> */}
-
-      {/* <ProjectContent className="reverse" data-aos="fade-right">
-        <ContentImg>
-          <a href="https://serene-jepsen-9a5fc7.netlify.app" target="_blanks">
-            <img src={travel} alt="" />
-          </a>
-        </ContentImg>
-
-        <ContentIntro className="reverse-intro">
-          <h3>Featured Project</h3>
-          <h2>Travel app</h2>
-          <div>
-            <div className="project-p">
-              <p>
-                This is a travel app. It's a single page website and base on
-                responsive web design.
-              </p>
-            </div>
-            <div className="project-pbox"></div>
-          </div>
-          <ul>
-            <li>React</li>
-            <li>Gatsby</li>
-            <li>Styled-components</li>
-          </ul>
-          <Icons>
-            <a href="https://github.com/wonho-jung/travel" target="_blanks">
-              <CodeIcon />
-            </a>
-            <a href="https://serene-jepsen-9a5fc7.netlify.app" target="_blanks">
-              <WebAssetIcon />
-            </a>
-          </Icons>
-        </ContentIntro>
-      </ProjectContent> */}
-
-      <OtherProject />
+      {/* <OtherProject /> */}
     </ProjectContainer>
   );
 }
@@ -283,7 +208,7 @@ const ProjectContainer = styled.div`
   p {
     line-height: 1.4rem;
   }
-  h1 {
+  h2 {
     span {
       color: #54b689;
     }
@@ -295,19 +220,19 @@ const ProjectContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .projectMain-h1 {
+    .projectMain-h2 {
       position: absolute;
       top: -80px;
       left: 0;
     }
+    h4,
     h3,
-    h2,
     ul {
       margin-right: 10px;
       margin-left: 10px;
     }
     .reverse {
-      h3 {
+      h4 {
         margin-right: 100px;
       }
       @media only screen and (min-width: 1008px) {
@@ -341,7 +266,7 @@ const ProjectContainer = styled.div`
             }
           }
           .project-pbox {
-            height: 120px;
+            height: 130px;
           }
           ul {
             justify-content: center;

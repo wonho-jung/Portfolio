@@ -11,9 +11,9 @@ function Worked() {
 
   return (
     <WorkedContainer data-aos="fade-right" id="work">
-      <h2>
-        Where I've Worked <span>()</span>
-      </h2>{" "}
+      <h3>
+        Where I&apos;ve Worked <span>()</span>
+      </h3>{" "}
       <WorkedContent>
         <h4>
           Front-end developer{" "}
@@ -27,8 +27,8 @@ function Worked() {
             <li>
               <ArrowRightIcon fontSize={"15"} />
               Hand-code embedded an example ads audio library & an ads
-              forecasting tool into the website's that enabled 300+ users to
-              predict the potential success of their ads.
+              forecasting tool into the website&apos;s that enabled 300+ users
+              to predict the potential success of their ads.
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
@@ -38,8 +38,8 @@ function Worked() {
             <li>
               <ArrowRightIcon fontSize={"15"} />
               Based on HotJar analytics, collaborated with the Marketing
-              Department's Director to address user drop in the app, & devised a
-              plan to reduce the onboarding process by 60%.
+              Department&apos;s Director to address user drop in the app, &
+              devised a plan to reduce the onboarding process by 60%.
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
@@ -55,9 +55,9 @@ function Worked() {
             </li>
             <li>
               <ArrowRightIcon fontSize={"15"} />
-              Converted client's Google Sheet Data (with 10,000+ input items)
-              into JSON and assisted in coordinating advanced audience target
-              options.
+              Converted client&apos;s Google Sheet Data (with 10,000+ input
+              items) into JSON and assisted in coordinating advanced audience
+              target options.
             </li>
           </ul>
         </div>
@@ -90,9 +90,9 @@ const WorkedContainer = styled.div`
       }
     }
   }
-  h2 {
+  h3 {
     margin-bottom: 8px;
-
+    color: #ffffff !important;
     span {
       color: #54b689;
     }
@@ -105,7 +105,7 @@ const WorkedContainer = styled.div`
     position: relative;
     display: flex;
     flex-direction: column;
-    h2 {
+    h3 {
       position: absolute;
       top: -70px;
       left: 20px;
