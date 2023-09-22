@@ -14,7 +14,7 @@ function Contact() {
         <p>
           You can reach out to me via{"  "}
           an email to
-          <a href="mailto:samjung.dev@gmail.com"> samjung.dev@gmail.com</a>
+          <a href="mailto:wonho.jung92@gmail.com"> wonho.jung92@gmail.com</a>
         </p>
         <p> I&apos;ll get back to you as quickly as possible!</p>
       </div>
@@ -28,7 +28,7 @@ function Contact() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/won-ho-jung-7a1330170/"
+          href="https://www.linkedin.com/in/samjung108/"
           target="_blank"
           rel="noreferrer"
         >
