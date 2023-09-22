@@ -5,7 +5,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import { useEffect } from "react";
 import { ReactComponent as Logo } from "../assets/newlogo.svg";
 import { Button } from "@mui/material";
-
+import sam_resume from "../assets/sam_resume.pdf";
 function Header() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -64,6 +64,17 @@ function Header() {
               onClick={closeMobileMenu}
             >
               Contact<span>()</span>
+            </a>
+          </li>
+          <li>
+            <a
+              className="nav-link nav-link-ltr"
+              href={sam_resume}
+              target="_blank"
+              rel="noreferrer"
+              onClick={closeMobileMenu}
+            >
+              Resume<span>()</span>
             </a>
           </li>
         </ul>
