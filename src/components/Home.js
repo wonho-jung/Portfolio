@@ -4,9 +4,15 @@ import styled from "styled-components";
 function Home() {
   return (
     <HomeContainer>
-      <h1>Hello!</h1>
-      <h1>I&apos;m Samuel,</h1>
-      <h1>Front-end developer.</h1>
+      <h1>
+        Hello!
+        <br />
+        <span>I&apos;m Samuel,</span>
+        <br />
+        <span>Front-end developer.</span>
+      </h1>
+      {/* <h1>I&apos;m Samuel,</h1>
+      <h1>Front-end developer.</h1> */}
     </HomeContainer>
   );
 }
@@ -45,46 +51,46 @@ const HomeContainer = styled.div`
   @media only screen and (min-width: 1008px) {
     height: 100vh;
 
-    h1 {
-      font-size: 5em;
-      font-weight: 700;
-      line-height: 1.05 em;
-      transform: translate(0, -50%);
-    }
-  }
-  h1:nth-child(1) {
-    animation-name: paragraph;
-    animation-duration: 1.2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    @keyframes paragraph {
-      0% {
-        transform: translateX(-1000px);
-      }
-    }
-  }
-  h1:nth-child(2) {
-    animation-name: paragraph;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    @keyframes paragraph {
-      0% {
-        transform: translateX(-1000px);
-      }
-    }
-  }
-  h1:nth-child(3) {
-    animation-name: paragraph;
-    animation-duration: 1.8s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    @keyframes paragraph {
-      0% {
-        transform: translateX(-1000px);
-      }
-    }
-  }
+  //   h1 {
+  //     font-size: 5em;
+  //     font-weight: 700;
+  //     line-height: 1.05 em;
+  //     transform: translate(0, -50%);
+  //   }
+  // }
+  // h1:nth-child(1) {
+  //   animation-name: paragraph;
+  //   animation-duration: 1.2s;
+  //   animation-fill-mode: forwards;
+  //   animation-timing-function: ease-in-out;
+  //   @keyframes paragraph {
+  //     0% {
+  //       transform: translateX(-1000px);
+  //     }
+  //   }
+  // }
+  // h1:nth-child(2) {
+  //   animation-name: paragraph;
+  //   animation-duration: 1.5s;
+  //   animation-fill-mode: forwards;
+  //   animation-timing-function: ease-in-out;
+  //   @keyframes paragraph {
+  //     0% {
+  //       transform: translateX(-1000px);
+  //     }
+  //   }
+  // }
+  // h1:nth-child(3) {
+  //   animation-name: paragraph;
+  //   animation-duration: 1.8s;
+  //   animation-fill-mode: forwards;
+  //   animation-timing-function: ease-in-out;
+  //   @keyframes paragraph {
+  //     0% {
+  //       transform: translateX(-1000px);
+  //     }
+  //   }
+  // }
 
   .span-w {
     color: #54b689;
