@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import RightSidebar from "./components/RightSidebar";
 import LeftSidebar from "./components/LeftSidebar";
 import Body from "./components/Body";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Loading from "./components/Loading";
 import { Helmet } from "react-helmet";
 
@@ -13,7 +13,9 @@ function App() {
     setLoading(false);
   };
 
-  setTimeout(time, 1400);
+  useEffect(() => {
+    setTimeout(time, 1000);
+  }, []);
 
   return (
     <>
